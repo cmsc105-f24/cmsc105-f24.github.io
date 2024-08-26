@@ -26,8 +26,7 @@ title: Schedule
 | 13   | Nov 19:     | Nov 21:      | Nov 22:          |
 | 14   | Nov 26:     | Nov 28: **Thanksgiving Break**      | Nov 29: **Thanksgiving Break**         |
 | 15   | Dec  3:     | Dec  5:      | Dec  6:          |
-| 16   | Dec 10: (<u>2pm</u>):<br /> **Project Presentations**     |             |                        |
-
+| 16   | Dec 16: (Monday <u>2pm</u>):<br /> **Hackathon**     |             |                        |
 
 
 

@@ -20,74 +20,90 @@ aside:
   * Tue 4:30PM - 5:30PM
   * Fri 3:00PM - 5:00PM
   * and by appointment
-* **Prerequisites:** CMSC 221 with a minimum grade of C- (See [computer science curriculum](https://cs.richmond.edu/Academics/courses/index.html))
 
 ### Meeting Times
 
 ## Class/Lab Info
-* Lecture (Jepson G04)
-  * Tue 10:30AM - 11:45AM
-  * Thr 10:30AM - 11:45AM
-* Lab (Jespson G04)
-  * Fri 9:00AM - 9:50AM
+* Lecture (Jepson G03)
+  * Tue 3:00PM - 4:15PM
+  * Thr 3:00PM - 4:15PM
+* Lab (Jespson G03)
+  * Fri 1:00PM - 1:50PM
 
 ### Course Staff
 - Dr. David Balash - Instructor
-- Jade Mawn - Lab Assistant
-- Toni Wu - Grader
+- Nikhil Poluri - Lab Assistant
+- Andrey Seabra - Grader
 
 
 ## Course Details 
 
-### Welcome to Software Systems Development!
+### Welcome to Elementary Programming!
 
-Your dedication and hard work have led you to this moment; you belong here. Congratulations on your achievements, and welcome to the course. I am thrilled to have you here and am looking forward to a semester filled with growth, learning, and success. Together, we will explore, create, and innovate. Let's make this an outstanding semester for everyone!
+I am thrilled to have you here and am looking forward to a semester filled with growth, learning, and success. Together, we will explore, create, and innovate. Let's make this an outstanding semester for everyone!
 
 ### Course Description 
 
-Introduction to techniques necessary for development of large-scale software systems. Topics include the development life cycle; design considerations including OOP, patterns, reuse, and usability; repository management; testing, debugging, and static/dynamic analysis; and group work. Also includes introduction to Unix/Linux environments, and to the C++ programming language, including classes, inheritance, and polymorphism; pointers and dynamic memory allocation; and the C++ Standard Template Library (STL).
+This course is designed to help students learn the foundation of computer programming. In this course, we will learn different concepts of programming using Python language. We will apply these concepts to solve problems in different areas of study. To start with, we will also discuss the basic structure of computers.
 
-### Learning Outcomes
-By the end of this course, you will:
+Towards the end of this course, students will have programming tools that can be applied to their respective areas of study.
 
-- Experience modern C++ programming
-- Gain familiarity with Unix/Linux environments
-- Understand the software development life cycle 
-- Practice object-oriented programming and design
-- Understand design patterns, reuse, and usability 
-- Exposure to version control systems
-- Demonstrate skill in software testing, debugging, and static/dynamic analysis 
 
+### Symbolic Reasoning - Statement of Course Objective 
+
+(This is a detailed statement on how CMSC 105 satisfies the Fields of Study: Symbolic Reasoning requirement.) Students will solve problems using one or more programming systems. The problem solving will include translating problems into computer programs, from problem statements that do not make clear the particular solution method to be used. In addition, the course will cover relevant background information, such as the rudiments of computer architecture and other aspects of the nature of computing systems and of computer science. This background will also include programming language syntax and semantics, so that students can recognize and correct syntax errors and can precisely predict the output of the kind of programs they write, given specified inputs. However, the central theme of the course will be the kind of problem-solving by students that expresses a solution in the form of a computer program. 
+
+This course will help students learn the basics of computer programming. Some of the main course objectives fulfilled towards the end:
+
+* Understand the importance of computer science in various computing problems.
+* Students will develop problem-solving skills by translating the problem statement into computer programs.
+* Write Python programs that successfully implement various concepts, including data types, string and math operations, control flow statements, lists, and functions.
+
+#### Learning Outcomes
+By the end of this course, you will be able to:
+- Translate problems for analysis within a formalized symbolic system.
+- Recognize the rules that govern a formalized symbolic system and apply those rules to obtain valid solutions.
+- Judge the reasonableness and limitations of solutions obtained within a formalized symbolic system.
+
+### Your Goals
+
+Please let me know what your goals are for this semester.
+1. ?
+2. ?
+3. ?
 
 ### Course Outline
 
-- Weeks 1-5: Introduction to C++ programming, Unix/Linux environments, and version control
-  - Syntax, memory management, libraries, ﬁle IO, Linux command line, Git 
-- Weeks 6-10: Object-oriented programming
-  - Abstraction, polymorphism, inheritance, and encapsulation
-- Weeks 11-15: Software systems development
-  - UML, design patterns, testing, debugging, static/dynamic analysis
-- Throughout: software engineering techniques
-  - Requirements, architecture, design principles
+- Weeks 1-5: 
+  - Basic Structure of Computers
+  - Introduction to Python
+  - Simple Sequential Programs and flowcharts
+  - Elementary Programming; Math, Strings, and Objects
+  - Selections and debugging
+  - Loops and debugging
+- Weeks 6-10:
+  - Functions
+  - Recursion
+  - Lists
+  - Dictionary
+- Weeks 11-15: 
+  - Classes and Objects
+
 
 ## Textbook and Resources
 
 ### Textbook
 
-There will be assigned reading from the following book which is available electronically **for free** via the UR library. 
+There will be assigned reading from the following book which is available electronically **for free** online and via the UR library. 
 
-- [Programming Principles and Practice Using C++, 2nd Edition](https://richmond.primo.exlibrisgroup.com/permalink/01URICH_INST/191gg5k/alma9928032248406241) by Bjarne Stroustrup 
+- [Think Python: How to Think Like a Computer Scientist](https://greenteapress.com/thinkpython2/html/index.html) by Allen B. Downey 
 
 
 ### Resources
 
-The following books are **not required** for this course. Instead it is a list of recommended resources for you to reference in addition to the course notes provided for you. These include:
+- [Python Crash Course](https://learning.oreilly.com/library/view/python-crash-course/9781098156664/?sso_link=yes&sso_link_from=university-of-richmond) by Eric Matthes
 
-- [Effective Modern C++](https://richmond.primo.exlibrisgroup.com/permalink/01URICH_INST/191gg5k/alma9928104160306241) by Scott Meyers
-
-- [A Tour of C++, 3rd Edition](https://learning.oreilly.com/library/view/a-tour-of/9780136823575/) by Bjarne Stroustrup
-
-- [C++ Software Design](https://learning.oreilly.com/library/view/c-software-design/9781098113155/) by Klaus Iglberger
+- [Introduction to Computing Using Python: An Application Development Focus](https://learning.oreilly.com/library/view/introduction-to-computing/9781118213568/?sso_link=yes&sso_link_from=university-of-richmond) by Ljubomir Perkovic
 
 All books listed here are available in electronic form **for free** on the [O'Reilly Media](https://learning.oreilly.com/home/) website via the UR library. You can also find a ton more books and resources there. 
 
@@ -95,33 +111,20 @@ All books listed here are available in electronic form **for free** on the [O'Re
 ## Coursework and Grading
 
 ### Course Work
-- In-class module exercises
+- In-class module exercises (small programming assignments)
 - Lab programming assignments
-- Programming project
-- Project presentation
+- Reading assignments and reading questions
 - 4 In-class quizzes
 
 
 ### Grading Breakdown
-   * 15%: Module exercises
-   * 40%: Labs 
-   * 20%: Project
-   *  5%: Project Presentation 
-   * 20%: Quizzes (In-class 4 x 5% each)
+   *  **5%:** Participation, attendance	
+   * **25%:** Module exercises
+   * **30%:** Labs 
+   * **10%:** Hackathon
+   * **10%:** Reading and reading questions 
+   * **20%:** Quizzes (In-class 4 x 5% each)
 
-
-### Programming Expectations
-
-The course will be **programming-intensive**. You will be submitting one lab assignment, on average, per week, and a programming project will be assigned mid-semester. You should also be completing your in-class module exercises. 
-
-You are expected to submit well-written code:
-
-- Comments must be substantive.
-- Select descriptive and readable variable names and method names.
-- Use consistent indentation (preferred: four spaces).
-- Submit code that compiles.
-  - Additionally, your code should be compile in a standard, pre-described way for the class (e.g., via the `g++` compiler)
-- Be able to describe and answer questions about your code when prompted.
 
 ### Late Work Policy
 
@@ -129,36 +132,39 @@ Assignments including modules and labs may be submitted late with a **10%** dedu
 
 You will have two "**late passes**" per semester to use on modules and labs.  To use a late pass, notify me which assignment you would like to use it on, and you may turn that assignment in **one week late for full credit**. 
 
-Late passes may **not** be used on the final project or exams.   
+Late passes may **not** be used on reading assignments or quizzes.   
 
 In cases of personal illnesses, emergencies, or documented accommodations, assignments may be submitted late for full credit if you notify me of your situation.
 
 
 ### Attendance Policy
-Regular attendance for the entire class time is expected. You may miss 4 total sessions (including lecture and lab). If you have to quarantine due to COVID or miss class for other legitimate reasons you will not be penalized. After 4 unexcused absences a 3% deduction will be applied to your final grade for each subsequent unexcused absence. 
+Regular attendance for the entire class time is expected. You may miss 2 total sessions (including lecture and lab). If you have to quarantine due to COVID or miss class for other legitimate reasons you will not be penalized. After 2 unexcused absences a deduction will be applied to your participation grade for subsequent unexcused absences. 
    
 
-### Self-Guided Module exercises
+### Self-Guided Module Exercises
 
 Each lecture will be accompanied by a *self-guided worksheet*. This module exercise is to complement in-class content and to assist you in reviewing the material. In-class module exercises are due one week from the lecture in which they are assigned. 
 
 
 ### Labs
 
-Labs are short-to-medium size programming assignments that are designed to reinforce lecture. This course has a formal laboratory component. You are expected to attend each lab for the entire 50 minute lab period. Some labs may require that you work in teams of two or more. Almost all labs will require more than the 50 minute alloted time to complete, so please expect to have to spend extra time on the labs.
-
-Labs are due at 11:59 pm on the night prior to the next lab (for this course, that means 11:59 pm Thursday evening), unless I explicitly provide a different deadline. Note that some labs are more like programming projects, so might require two weeks to complete. In that case I will explicitly inform you of this. 
-
- 
-### Programming Project
-
-The programming project will be written in the C++ language, and must compile without warnings using the GNU g++ compiler and the -Wall flag on the department's Linux machines (cs01 - cs06 and turing2). 
+Labs are short-to-medium size programming assignments that are designed to reinforce lecture. This course has a formal laboratory component. You are expected to attend each lab for the entire 50 minute lab period. Some labs may require that you work in teams of two or more. Almost all labs will require more than the 50 minute alloted time to complete, so please expect to have to spend extra time on the labs. Labs are due at 11:59 pm on the night prior to the next lab (for this course, that means 11:59 pm Thursday evening), unless I explicitly provide a different deadline. 
 
 
 ### Quizzes
 
 There are four in-class quizzes. Each quiz is worth 5% of your grade, for a total 20%.
 
+### Hackathon
+
+The hackathon will take place during our final exam period from 2pm to 5pm on Monday December 16th. Students will write a Python program(s) to solve a problem or accomplish a task based on a theme or instructions provided during the hackathon. The programming will be done open-book but close-internet. 
+
+### Participation Grading
+You will earn the participation points based on the following:
+*	Attendance
+* Participation in class discussions
+* Working in a group during the practice sessions
+* Participation in the class learning activities
 
 ## Class Communication
 
@@ -170,6 +176,11 @@ If you have personal, individual issues you'd like addressed, you should send th
 
 
 ## Course Policies
+
+### Statement on Inclusive Teaching
+
+It is my intent that students from all backgrounds and perspectives be well-served by this course, and that the diversity that the students bring to this class be viewed as a resource, strength and benefit. Your suggestions are encouraged and appreciated. Please let me know ways to improve the effectiveness of the course for you personally, or for other students or student groups.
+
 
 ### Illness policy
 
@@ -209,7 +220,7 @@ You must:
 - Understand any code that you use. We reserve the right to review your submitted code with you, and ask you to explain how it works. 
 
 You may:
-- Ask a GenAI tool a generic question for informational purposes. For example, "Please explain the C++ syntax for reading input from a file, and give an example."  If you use this code, please cite the source in a comment.
+- Ask a GenAI tool a generic question for informational purposes. For example, "Please explain the Python syntax for reading input from a file, and give an example."  If you use this code, please cite the source in a comment.
 
 You may not:
 - Ask a GenAI tool to solve the assignment.  For example, you should not paste the entire problem description and ask the GenAI to solve it for you.
@@ -264,5 +275,5 @@ If you or someone you know is feeling suicidal or in danger of self-harm, call s
 
 ## Acknowledgments
 
-Much of the material for this course comes from previous iterations taught by [Prof. Doug Szajda](https://cs.richmond.edu/faculty/dszajda/) ([Spring 2023](https://facultystaff.richmond.edu/~dszajda/classes/cs240/Spring_2023/)). Material was also adopted with permission from The George Washington University course CS  2113 taught by Prof. Adam Aviv and others. Thank you. 
+Much of the material for this course comes from previous iterations taught by [Dr. Shweta Ware](https://cs.richmond.edu/faculty/sware/).
 
