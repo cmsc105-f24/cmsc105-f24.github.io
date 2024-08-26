@@ -17,8 +17,8 @@ aside:
 * **Instructor:** Dr. David Balash
 * **Email:** [david.balash@richmond.edu](mailto:david.balash@richmond.edu)
 * **Office Hours:** (Jepson 223)
-  * Tue 4:30PM - 5:30PM
-  * Fri 3:00PM - 5:00PM
+  * Tue 4:30PM - 6:00PM
+  * Thr 4:30PM - 6:00PM
   * and by appointment
 
 ### Meeting Times
@@ -40,7 +40,7 @@ aside:
 
 ### Welcome to Elementary Programming!
 
-I am thrilled to have you here and am looking forward to a semester filled with growth, learning, and success. Together, we will explore, create, and innovate. Let's make this an outstanding semester for everyone!
+Welcome to the course. I am thrilled to have you here and am looking forward to a semester filled with growth, learning, and success. Together, we will explore, create, and innovate. Let's make this an outstanding semester for everyone!
 
 ### Course Description 
 
@@ -142,7 +142,6 @@ Regular attendance for the entire class time is expected. You may miss 2 total s
    
 
 ### Self-Guided Module Exercises
-
 Each lecture will be accompanied by a *self-guided worksheet*. This module exercise is to complement in-class content and to assist you in reviewing the material. In-class module exercises are due one week from the lecture in which they are assigned. 
 
 
