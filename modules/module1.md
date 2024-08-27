@@ -3,111 +3,66 @@ layout: default
 permalink: module/1
 ---
 
-# Module 1: Introduction
+# Module 1: Your First Program
 
-* First read this page then start coding module and answering the exercise questions with the GitHub classroom link below.
-* Github Classroom Link: [https://classroom.github.com/a/ZZKBGi4j](https://classroom.github.com/a/ZZKBGi4j)
+* First read this page then start coding the module.
+* Post your Python files to Blackboard under the module 1 assignment.
+
 
 ### Objectives
 
-The goal of this module is to compile and run your first C++ program. 
+Experience writing a really simple program.  
 
-### Table of Contents
 
-* [Hello World in C++](#hello)
-* [Compiling and executing on Unix](#compile)
-* [Exercise 1](#exercise_1)
-* [Exercise 2](#exercise_2)
+## Hello World in Python 
 
----
+Here is the classic Hello World program in Python:
 
-## Hello World in C++ <a class="anchor" id="hello"></a>
-
-Here is the classic Hello World program in C++:
-
- ```C++
-// This program outputs the message “Hello, World!”
-#include <iostream>
-using namespace std;
-
-int main() 
-{
-	cout << "Hello, World!" << endl;
-	return 0;
-}
+__hello.py__
+ ```Python
+print("Hello World!")
  ```
 
-The `#include` is a preprocessor directive to load the `iostream` library.
+This is a simple program written in the Python programming language, possibly one of the smallest programs one can write, and a traditional starting point for learning programming.
 
-Execution starts in a function called `main`. There are other signatures for `main` that include arguments to the `main` function as we will see. The return type here is `int`, which specifies that an integer will be returned by the main function. 
 
-The name `cout` refers to the standard output stream and along with its output operator `<<` the string "Hello, World!" is put into the character output stream and will appear on the screen.
+## Hello World Variation
 
-The name `endl` is the newline character that will be also added to the character output. 
+We will now spend a bit of time trying a few variations, and also examining what happens when typing mistakes are made.
 
- 
+Consider this program:
 
-#### Compiling and executing on Unix <a class="anchor" id="compile"></a>
-
-The program above is a plain text file, as in any programming language.
-
-The file extension needs to be `.cpp`.
-
-The file name need not be hello.
-
-**To compile:**
-
-```shell
-g++ hello.cpp -o hello
-```
-    
-
-This produces an executable called `hello` which can be executed as:
-
-```shell
-./hello
+__helloname.py__
+```Python
+print("Hello World!")
+print("My name is X")
 ```
 
-The compiler options (switches):
+Type up this program but use your own name instead of X.
 
-- The simplest form on invoking the g++ compiler is:
+## What happens when things go (even slightly) wrong
 
-```Shell
-	g++ hello.cpp 
+We'll now deliberately make a few tiny errors and see what happens:
+
+##### Error #1: forgetting to type the closing parenthesis.
+
+__error1.py__
+```Python
+print("Hello World!"
 ```
 
-- This produces an executable called a.out (by tradition). This is an abbreviated form of "assembler output".
-- The `-o` option lets you specify the name of the executable.
-
- 
-# Exercise 1: <a class="anchor" id="exercise_1"></a>
-* Remove the `<< endl` from `hello.cpp` but keep the `;` semicolon at the end of the line and see what happens. Recompile and run. 
-
-* Describe what happened. Put your answer in the `README.md` file in your GitHub repository.
-
-___
-
-<br />
-<br />
+Note the missing right parenthesis at the end of the line.
+* What happens when we nonetheless try and run the program?
 
 
-# Exercise 2: <a class="anchor" id="exercise_2"></a>
-* The following program should not compile. Fix it and explain why.
+##### Error #2: What happens if we forget the quotation marks?
 
-```C++
-using namespace std;
-
-int main() 
-{
-	cout << "Why oh why does this program fail to compile?!?!" << endl;
-    
-	return 0;
-}
+__error2.py__
+```Python
+print(Hello World!)
 ```
 
-* Describe the error and explain the fix. Put your answer in the `README.md` file in your GitHub repository.
-
-* Fix the code in `fixme.cpp`
+* What happens when we nonetheless try and run the program?
 
 ___
 
