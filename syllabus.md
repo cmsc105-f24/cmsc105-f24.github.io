@@ -96,7 +96,7 @@ Please let me know what your goals are for this semester.
 
 There will be assigned reading from the following book which is available electronically **for free** online and via the UR library. 
 
-- [Think Python: How to Think Like a Computer Scientist](https://greenteapress.com/thinkpython2/html/index.html) by Allen B. Downey 
+- [Think Python: How to Think Like a Computer Scientist](https://allendowney.github.io/ThinkPython/) by Allen B. Downey 
 
 
 ### Resources
