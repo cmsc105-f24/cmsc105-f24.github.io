@@ -3,131 +3,246 @@ layout: default
 permalink: module/2
 ---
 
-# Module 2: Functions, Strings, and Command Line Arguments
+# Module 2: A few more getting-started examples
 
-* First read this page then start coding module with the GitHub classroom link below.
-* Github Classroom Link: [https://classroom.github.com/a/0iIUIHL8](https://classroom.github.com/a/0iIUIHL8)
+* First read this page then start coding the module.
+* Post your Python files to Blackboard under the module 2 assignment.
 
+**Note:** Create a text file called `module2.txt` where you will store you answers to exercise questions. The questions that are not related to changing code. You will submit this file on Blackboard along with your code. 
 
-## Exercise 1: <a class="anchor" id="exercise_1"></a>
-### Palindrome Checking
+## Comments
 
-The code for this exercise is in the `exercise1` directory in the module2 repository. Read the description below, and then enter your code in the palindrome.cpp file where it says 
-```c++
-// TODO: Write your code here.
+A comment is like a note-to-self that you include directly in a program as a way to explain something to yourself for later, or to someone else who reads your program.
+
+```Python
+# This is a comment
+    # This is one too, but not recommended 
+
+print("Something")      # And so is this
 ```
 
-<div class="requirement">
-When you finish and test your code, write in the README.md file how your code works, and explain how the input is recieved from the command line via `argc` and `argv[]`.
-</div>
+Let's explain:
+- A comment begins with a # and ends at the end of the line.
+- Anything written as a comment is not treated by your computer as a "command" or as programming intent.
+- Thus, as far as programming goes, the above program is as good as:
+    ```python
+    print("Something")
+    ```
 
-Complete a small program to check if the input provided by the user is a palindrome. A palindrome is a string that is the same forward and backwards.
+---
+##### Exercise 1: Write up the above in a file called `my_comments.py`. Fix the second comment to start at the beginning of the line, and add an entirely new comment line of your own. Attach this file to the Blackboard module 2 assignment (and do this for every exercise in the future that involves a program). 
+--- 
 
-There are two main ways for testing if a string is a palindrome:
 
--   Iterate from forward to back, and from back to forward, and check that they are the same.
+Sometimes one needs a comment to spill over multiple lines, as in
 
--   Create a copy of the string, in reverse, and check that the copy matches the original.
+```python
+# I wrote this program at midnight
+20 seconds before the deadline
+print("Something") 
+``` 
+    
+Notice the missing `#` in the second line of the comment.
+ 
+--- 
+##### Exercise 2: Write up the above in a file called `comment_error.py`. What is the error displayed when you try to run the program? Write the error in your `module2.txt` file.
+---
 
-You will implement both. The main portion of the program, provided to you, looks like this:
+## Whitespace 
 
-```c
+Consider the following program:
 
-// The main function, were the program begins.
-int main(int argc, char* argv[])
-{
-    // If the argument count does not equal 2,
-    // then print a usage message.
-    if (argc != 2)
-    {
-        cerr << "Usage: " << argv[0]
-             << " <string-to-check>" << endl;
-        exit(1);
-    }
+```python
+print   (  "Hello World!"     ) 
+```    
 
-    // Create a new string named inputString.
-    string inputString = argv[1];
+Notice the spaces inserted in various places.
+ 
+--- 
+##### Exercise 3: Write up the above in `whitespace_example.py`. Does the program run? Write your answer in `module2.txt` file. Remember: if it's not clear where to write your answer, write it in your module text file (for this module that's `module2.txt`)
+---
 
-    // Call check1 function.
-    if (check1(inputString))
-    {
-        cout << inputString << " is a palindrome according to check 1" << endl;
-    }
-    else
-    {
-        cout << inputString << " is NOT a palindrome according to check 1" << endl;
-    }
 
-    // Call check2 function.
-    if(check2(inputString))
-    {
-        cout << inputString << " is a palindrome according to check 2" << endl;
-    }
-    else
-    {
-        cout << inputString << " is NOT a palindrome according to check 2" << endl;
-    }
+Consider this variation
 
-    return 0;
-}
-
+```python
+  print("Hello World!") 
 ```
 
+(Two spaces before print).
+ 
+--- 
+##### Exercise 4: Write up the above in `whitespace_example2.py`. What is the error produced? Write your answer in `module2.txt`.
+---
 
-<div class="requirement">
+Finally, look at:
 
--   Complete the `palindrome` program using two checks.
+```python
+print("Hello     World!") 
+```
 
--   `check1()` and `check2()` must use two distinct algorithms:
-    -   `check1()` use two iterators, one from the start and one from the end of the string, to check if the front and back are the same
-    -   `check2()` copy the string to a new string, in reverse, and compare the two strings using `.compare()` or `==`
+(Extra spaces between Hello and World.)
+ 
+--- 
+##### Exercise 5: Write up the above in `whitespace_example3.py`. What is printed out? Write your answer in `module2.txt`.
+--- 
+
+Let's point out a few things:
+- Some kinds of whitespace, even if ill-advised, is permitted.
+- When starting a line of code, proper indentation is expected, which is why we got an error when we indented the line starting with print.
+- The extra spaces between Hello and World are perfectly acceptable if the goal is to print them. Printing accepts whatever spaces you want printed.
 
 
+## Strings
+ 
+A string in Python is a sequence of letters, digits, or symbols (like $ or *) surrounded by either
+- A pair of double quotes, as in: "Hello World!"
+- A pair of single quotes as in: 'Hello World!'
 
-Here is some sample output:
+Note:
+- Whichever quote you use to start a string must be used to end the string.
+- The ending quote must be on the same line as the starting quote.
+- There are special techniques to handle long strings that need to spill over multiple lines (which we'll see below).
+- This raises some questions:
+    - Is it possible to print a single line but with multiple print statements?
+    - How does one print a quote?
 
-```Shell
-$ ./palindrome racecar
-racecar is a palindrome according to check 1
-racecar is a palindrome according to check 2
+First, note that we can use single or double quotes for different strings in the same program:
+```python
+print('Hello')
+print("World!") 
+```    
+--- 
+##### Exercise 6: Confirm that Hello and World! get printed on two lines by writing the above in `my_string_example.py`.
+---
+ 
 
-$ ./palindrome madamimadam
-madamimadam is a palindrome according to check 1
-madamimadam is a palindrome according to check 2
+A print statement prints the string within parenthesis and then goes to the next line of output, which is why we see World! on the next line.
+ 
 
-$ ./palindrome amanaplanacanalpanama
-amanaplanacanalpanama is a palindrome according to check 1
-amanaplanacanalpanama is a palindrome according to check 2
+To keep printing on the same line:
 
-$ ./palindrome notapalindrome       
-notapalindrome is NOT a palindrome according to check 1
-notapalindrome is NOT a palindrome according to check 2
+```python
+print("Hello", end=' ')
+print("World!")
+```
 
-$ ./palindrome               
-Usage: ./palindrome <string-to-check>
+ 
+--- 
+##### Exercise 7: Confirm by writing the above in `my_string_example2.py`.
+--- 
+
+We'll now go the other way and have a single string itself contain a directive to spill over to the next line.
+
+```python
+print('Hello\nWorld!') 
+```    
+
+Notice the backslash \ followed by n inside the string: 'Hello\nWorld!'
+ 
+
+--- 
+##### Exercise 8: Write up the above `my_string_example3.py`. What is the output? Write your answer in `module2.txt`.
+---
+
+Strings can embed special so-called escape sequences that begin with backslash.
+
+This will give us one way to print a quote:
+
+```python
+print('My friend\'s friend\'s dog\'s friend')
 ```
     
+Another way is to use one set of quotes to delimit the string that are different from the ones used within:
 
-</div>
-
----
-
-
-## Exercise 2: <a class="anchor" id="exercise_2"></a>
-
-
-### Compiling Multiple Files
-
-To compile the code in the `exercise2` directory with `g++` the GNU C++ compiler using the following command:
-
-```Shell
-g++ main.cpp one.cpp two.cpp -o program
+```python
+print('My friend\'s friend\'s dog\'s friend')
+print("bit my friend's dog's ankle")
+print('who yelped "owww"')
 ```
 
-<div class="requirement">
+How does one print a backslash itself? By using a double backslash:
 
-In the module2 README.md file, explain how the `main()` function in main.cpp has access to the functions `printEven()` and `printOdd()`.  Explain both where the function declarations are stored, and the steps the compiler is taking to build the `program` executable. 
+```python
+print("The backslash character, \\, is less intimidating now")
+```    
+ 
+--- 
+##### Exercise 9: Write a program called `practice_escaping.py` that prints out
 
-</div> 
+```text
+  "    "   \\\
+  "    "    \    
+  """"""    \    
+  "    "    \    
+  "    "   \\\  
+```  
 
 ---
+
+Another use of backslash: to make long strings
+- Sometimes we need to type in a really long string.
+- The following does NOT work:
+
+```python
+print("An Ogden Nash poem:")
+print("The camel has a single hump; 
+The dromedary, two; 
+Or else the other way around. 
+I’m never sure. Are you?")
+```
+    
+ 
+##### Exercise 10: Write a program called `my_string_example4.py` with the above program and run it. What is the error you observe? Write your answer in `module2.txt`
+--- 
+
+To spread a single string over multiple lines, one uses a triple quote as in:
+
+```python
+print("An Ogden Nash poem:")
+print('''The camel has a single hump; 
+The dromedary, two; 
+Or else the other way around. 
+I’m never sure. Are you?''')
+```    
+ 
+##### Exercise 11: Write a program called `my_string_example5.py` with a 5-line limerick.
+---
+ 
+
+Empty strings:
+
+- It is possible to not have anything in a string, as in:
+    ```python
+    print('')
+    ```
+- Notice: there are no letters, digits or anything between the two single quotes above.
+- Such a string is called an empty string.
+- Odd as it may seem, empty strings are useful (we'll see later) when you want to add strings to make a longer string.
+
+
+## Case sensitivity
+ 
+What if we had used uppercase P instead of lowercase p in print?
+
+```python
+Print('Hello World!')
+```    
+ 
+##### Exercise 12: Write up the above program in `case_error.py` and run it. What is the error you get? Write your answer in `module1.txt`.
+---
+
+What if we changed the case inside a string?
+
+```python
+print('helLo WoRLd!')
+```  
+ 
+##### Exercise 13: Write up the above program in `my_string_example6.py` and run it to see if it works.
+---
+
+Python is case sensitive but strings are like data inside programs, which means they can be whatever we like.
+- The two strings 'Hello World!' and 'helLo WoRLd!' are fine as two different strings, if that's we want.
+- However, Python has only one print and so it won't recognize Print (with capital P).
+
+
