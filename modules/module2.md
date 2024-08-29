@@ -30,7 +30,7 @@ Let's explain:
     ```
 
 ---
-##### Exercise 1: Write up the above in a file called `my_comments.py`. Fix the second comment to start at the beginning of the line, and add an entirely new comment line of your own. Attach this file to the Blackboard module 2 assignment (and do this for every exercise in the future that involves a program). 
+**Exercise 1:**  Write up the above in a file called `my_comments.py`. Fix the second comment to start at the beginning of the line, and add an entirely new comment line of your own. Attach this file to the Blackboard module 2 assignment (and do this for every exercise in the future that involves a program). 
 --- 
 
 
