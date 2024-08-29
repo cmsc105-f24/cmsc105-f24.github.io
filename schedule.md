@@ -11,7 +11,7 @@ title: Schedule
 
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
-| 1    | Aug 27:  <br />Slides: [Introduction](lectures/Lecture1_CS105.pdf)<br />Reading [Assignment 1](reading/1)(Due Mon Sep 2)<br /> Module 1: [Hello Python](module/1) (Due Tue Sep 3)               | Aug 29:  <br />Slides: [Intro to Programming](lectures/Lecture2_CS105.pdf) <br /> Module 2: [](module/2) (Due Thr Sep 5)                                  | Aug 30:                   |
+| 1    | Aug 27:  <br />Slides: [Introduction](lectures/Lecture1_CS105.pdf)<br />Reading [Assignment 1](reading/1)(Due Mon Sep 2)<br /> Module 1: [Hello Python](module/1) (Due Tue Sep 3)               | Aug 29:  <br />Slides: [Intro to Programming](lectures/Lecture2_CS105.pdf) <br /> Module 2: [Getting Started with Strings](module/2) (Due Thr Sep 5)                                  | Aug 30:                   |
 | 2    | Sep  3:     | Sep  5:      | Sep  6:          |
 | 3    | Sep 10:     | Sep 12:      | Sep 13:          |
 | 4    | Sep 17:     | Sep 19:      | Sep 20:          |
