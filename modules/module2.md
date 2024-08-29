@@ -6,7 +6,7 @@ permalink: module/2
 # Module 2: A few more getting-started examples
 
 * First read this page then start coding the module.
-* Post your Python files to Blackboard under the module 2 assignment.
+* Post your Python files to Blackboard under the Module 2 assignment.
 
 **Note:** Create a text file called `module2.txt` where you will store you answers to exercise questions. The questions that are not related to changing code. You will submit this file on Blackboard along with your code. 
 
@@ -31,7 +31,8 @@ Let's explain:
 
 ---
 **Exercise 1:**  Write up the above in a file called `my_comments.py`. Fix the second comment to start at the beginning of the line, and add an entirely new comment line of your own. Attach this file to the Blackboard module 2 assignment (and do this for every exercise in the future that involves a program). 
---- 
+
+---
 
 
 Sometimes one needs a comment to spill over multiple lines, as in
@@ -45,7 +46,8 @@ print("Something")
 Notice the missing `#` in the second line of the comment.
  
 --- 
-##### Exercise 2: Write up the above in a file called `comment_error.py`. What is the error displayed when you try to run the program? Write the error in your `module2.txt` file.
+**Exercise 2:** Write up the above in a file called `comment_error.py`. What is the error displayed when you try to run the program? Write the error in your `module2.txt` file.
+
 ---
 
 ## Whitespace 
@@ -59,7 +61,8 @@ print   (  "Hello World!"     )
 Notice the spaces inserted in various places.
  
 --- 
-##### Exercise 3: Write up the above in `whitespace_example.py`. Does the program run? Write your answer in `module2.txt` file. Remember: if it's not clear where to write your answer, write it in your module text file (for this module that's `module2.txt`)
+**Exercise 3:** Write up the above in `whitespace_example.py`. Does the program run? Write your answer in `module2.txt` file. Remember: if it's not clear where to write your answer, write it in your module text file (for this module that's `module2.txt`).
+
 ---
 
 
@@ -72,7 +75,8 @@ Consider this variation
 (Two spaces before print).
  
 --- 
-##### Exercise 4: Write up the above in `whitespace_example2.py`. What is the error produced? Write your answer in `module2.txt`.
+**Exercise 4:** Write up the above in `whitespace_example2.py`. What is the error produced? Write your answer in `module2.txt`.
+
 ---
 
 Finally, look at:
@@ -84,7 +88,8 @@ print("Hello     World!")
 (Extra spaces between Hello and World.)
  
 --- 
-##### Exercise 5: Write up the above in `whitespace_example3.py`. What is printed out? Write your answer in `module2.txt`.
+**Exercise 5:** Write up the above in `whitespace_example3.py`. What is printed out? Write your answer in `module2.txt`.
+
 --- 
 
 Let's point out a few things:
@@ -113,7 +118,8 @@ print('Hello')
 print("World!") 
 ```    
 --- 
-##### Exercise 6: Confirm that Hello and World! get printed on two lines by writing the above in `my_string_example.py`.
+**Exercise 6:** Confirm that Hello and World! get printed on two lines by writing the above in `my_string_example.py`.
+
 ---
  
 
@@ -129,7 +135,8 @@ print("World!")
 
  
 --- 
-##### Exercise 7: Confirm by writing the above in `my_string_example2.py`.
+**Exercise 7:** Confirm by writing the above in `my_string_example2.py`.
+
 --- 
 
 We'll now go the other way and have a single string itself contain a directive to spill over to the next line.
@@ -142,7 +149,8 @@ Notice the backslash \ followed by n inside the string: 'Hello\nWorld!'
  
 
 --- 
-##### Exercise 8: Write up the above `my_string_example3.py`. What is the output? Write your answer in `module2.txt`.
+**Exercise 8** Write up the above `my_string_example3.py`. What is the output? Write your answer in `module2.txt`.
+
 ---
 
 Strings can embed special so-called escape sequences that begin with backslash.
@@ -168,7 +176,7 @@ print("The backslash character, \\, is less intimidating now")
 ```    
  
 --- 
-##### Exercise 9: Write a program called `practice_escaping.py` that prints out
+**Exercise 9:** Write a program called `practice_escaping.py` that prints out
 
 ```text
   "    "   \\\
@@ -193,7 +201,8 @@ I’m never sure. Are you?")
 ```
     
  
-##### Exercise 10: Write a program called `my_string_example4.py` with the above program and run it. What is the error you observe? Write your answer in `module2.txt`
+**Exercise 10:** Write a program called `my_string_example4.py` with the above program and run it. What is the error you observe? Write your answer in `module2.txt`.
+
 --- 
 
 To spread a single string over multiple lines, one uses a triple quote as in:
@@ -206,7 +215,8 @@ Or else the other way around.
 I’m never sure. Are you?''')
 ```    
  
-##### Exercise 11: Write a program called `my_string_example5.py` with a 5-line limerick.
+**Exercise 11:** Write a program called `my_string_example5.py` with a 5-line limerick.
+
 ---
  
 
@@ -229,7 +239,8 @@ What if we had used uppercase P instead of lowercase p in print?
 Print('Hello World!')
 ```    
  
-##### Exercise 12: Write up the above program in `case_error.py` and run it. What is the error you get? Write your answer in `module1.txt`.
+**Exercise 12:** Write up the above program in `case_error.py` and run it. What is the error you get? Write your answer in `module1.txt`.
+
 ---
 
 What if we changed the case inside a string?
@@ -238,7 +249,8 @@ What if we changed the case inside a string?
 print('helLo WoRLd!')
 ```  
  
-##### Exercise 13: Write up the above program in `my_string_example6.py` and run it to see if it works.
+**Exercise 13:** Write up the above program in `my_string_example6.py` and run it to see if it works.
+
 ---
 
 Python is case sensitive but strings are like data inside programs, which means they can be whatever we like.
