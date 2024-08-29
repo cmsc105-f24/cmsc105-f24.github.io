@@ -14,7 +14,7 @@ permalink: module/2
 
 A comment is like a note-to-self that you include directly in a program as a way to explain something to yourself for later, or to someone else who reads your program.
 
-```Python
+```python
 # This is a comment
     # This is one too, but not recommended 
 

@@ -19,7 +19,7 @@ Experience writing a really simple program.
 Here is the classic Hello World program in Python:
 
 __hello.py__
- ```Python
+ ```python
 print("Hello World!")
  ```
 
@@ -70,7 +70,7 @@ We will now spend a bit of time trying a few variations, and also examining what
 Consider this program:
 
 __helloname.py__
-```Python
+```python
 print("Hello World!")
 print("My name is X")
 ```
@@ -93,7 +93,7 @@ We'll now deliberately make a few tiny errors and see what happens:
 ##### Error #1: forgetting to type the closing parenthesis.
 
 __error1.py__
-```Python
+```python
 print("Hello World!"
 ```
 
@@ -111,7 +111,7 @@ Note the missing right parenthesis at the end of the line.
 ##### Error #2: What happens if we forget the quotation marks?
 
 __error2.py__
-```Python
+```python
 print(Hello World!)
 ```
 
