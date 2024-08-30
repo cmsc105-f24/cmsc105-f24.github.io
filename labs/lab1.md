@@ -5,13 +5,17 @@ permalink: lab/1
 
 # Lab 1: Math expressions and input/output 
 
-In this lab, we will practice several Python statements from the __IDLE__ (__I__ntegrated __D__evelopment and __L__earning __E__nvironment).
+__Points Possible:__ 100
+
+__Due:__ Thursday, September 5th 
+
+In this lab, we will practice several Python statements from the __IDLE__ (Integrated Development and Learning Environment). 
 
 * Read through this document carefully, and practice running Python expressions using IDLE. 
 * Run the commands and check their outputs. 
-* Please copy and paste the IDLE output into a file called `lab1.txt` and attach it to the lab 1 on Blackboard.
+* Please copy and paste the IDLE output into a file called `lab1.txt` and attach it to the lab 1 assignment on Blackboard. (75 Points)
 * We will also write and execute a Python program. 
-* A Python file with a program is required for submission on Blackboard.
+* The program file `circle.py` is required for submission on Blackboard as well. (25 points)
 
 
 ## Objectives
@@ -231,13 +235,72 @@ Now try this,
 ## Part 2: Program Assignment
 
 
+### Sample Code
+
+The code below calculates the sum of two numbers. It reads (takes as input) 2 numbers and displays the sum.
+
+```python
+''' 
+Author name: Dr. David Balash
+This program calculates the sum of 2 numbers
+'''
+
+number1=eval(input("Enter number 1"))  # Asks users to input number 1
+number2=eval(input("Enter number 2"))  # Asks users to input number 2
+
+# Calculate the sum of the two numbers
+add_result = number1 + number2
+
+# Print the results
+print("Sum of 2 numbers is", add_result)
+
+```
+
+Notes:
+* It starts with a multi-line comment block where you describe your program. 
+* You can use `#` sign for this or `'''` three single quotes for multi-line comments.
+* The program then reads input with the Python `input` function.
+* The input entered will be in `string` format.
+* The Python `eval` function will convert it into a value.
 
 
 
+The basic structure of any program will have the following components:
+* Comments
+* Input
+* Computation (addition in example above)
+* Output
+
+You can choose any meaningful names for the variables (except any keywords/reserved words in Python like `if`, `break`, `for`). For example, in this program, `number1`, `number2`, `add_result` are variables that store values.
+
+You can read/practice more based on Lecture 2 slides.
 
 
+### Write a program
+
+Write a program that takes as input the radius of a circle and computes the circumference of the circle using the formula:
+
+$$
+circumference = 2 \pi r
+$$
+
+* Where $\pi$ is 3.14159
 
 
+Please display the circumference using a `print` statement.
+
+Save the program is `circle.py` and attach it to the Blackboard lab assignment. 
+
+
+#### Grading Rubric for the program:
+
+| Grading | Points Possible |
+|----------|----------|
+| Appropriate header and comments   | 5  |
+| Input   | 5   |
+| Computation   | 10   |
+| Print output   | 5   |
+TOTAL	25
 
 
 ---
