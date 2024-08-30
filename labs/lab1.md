@@ -294,13 +294,32 @@ Save the program is `circle.py` and attach it to the Blackboard lab assignment.
 
 #### Grading Rubric for the program:
 
-| Grading | Points Possible |
-|----------|----------|
-| Appropriate header and comments   | 5  |
-| Input   | 5   |
-| Computation   | 10   |
-| Print output   | 5   |
-TOTAL	25
+<table>
+    <tr>
+        <td>Grading</td>
+        <td>Points Possible</td>
+    </tr>
+    <tr>
+        <td>Appropriate header and comments</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Input</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Computation</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Print output</td>
+        <td>5</td>
+    </tr>
+</table>
+
+**TOTAL	25 points**
+
+
 
 
 ---
