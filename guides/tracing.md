@@ -26,4 +26,8 @@ y = 10
 sum = x + y
 ```
 
-
+{% highlight python linenos %}
+x = 5
+y = 10
+sum = x + y
+{% endhighlight %}

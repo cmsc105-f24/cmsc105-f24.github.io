@@ -56,10 +56,6 @@ kramdown:
   input: GFM
   hard_wrap: true
   parse_block_html: true # needed to allow markdown inside <div> tags
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    block:
-      line_numbers: true
 
 
 # Exclude from processing.
