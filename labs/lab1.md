@@ -235,7 +235,7 @@ Now try this,
 ## Part 2: Program Assignment
 
 
-### Sample Code
+### Sample Code (for reference, please do NOT include this in your submission):
 
 The code below calculates the sum of two numbers. It reads (takes as input) two numbers and displays the sum.
 

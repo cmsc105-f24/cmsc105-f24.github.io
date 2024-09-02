@@ -5,106 +5,107 @@ permalink: lab/2
 
 # Lab 2: File I/O
 
-* First read this page then start coding the lab with the GitHub classroom link below.
-* Github Classroom Link: [https://classroom.github.com/a/1979WMkg](https://classroom.github.com/a/1979WMkg)
+__Points Possible:__ 100
+
+__Due:__ Thursday, September 12th 
+
+In this lab, we will practice the concepts learned in week two. We will use flowcharts, tracing, and Python programming to solve the problems.
+
+Submission:
+1.	Please submit a Python file for each of the four programs.
+2.	Include the tracing part in the Python file as a comment block (similar to how we practiced in the class).
+3.	Submit pictures of the flowcharts.
+
+## Program 1: Compute the volume of a cylinder
+
+Write a program that reads in the $radius$ and $length$ of a cylinder and computes the $area$ and $volume$ using the following formulas:
+
+$$
+area = radius * radius * \pi
+$$
+
+$$
+volume = area * length
+$$
+
+* Where $\pi$ is 3.14159
+
+Please print the $area$ and $volume$ values.
+
+Save the program is `cylinder.py` and attach it to the Blackboard lab assignment. 
+
+Draw a flowchart of this program take a picture and save it as `flow1.png` and attach it to the Blackboard lab assignment.
+
+## Program 2: Miles to kilometers
+
+Write a program that takes an input value in miles and converts and displays an equivalent value in kilometers (note that __1 mile is 1.609 kilometers__).
+
+Save the program is `m2k.py` and attach it to the Blackboard lab assignment.
+
+Draw a flowchart of this program take a picture and save it as `flow2.png` and attach it to the Blackboard lab assignment.
+
+## Program 3: Financial application: calculate interest
+
+If you know the $balance$ and the annual percentage interest rate, you can compute the $interest$ on the next monthly payment using the following formula:
+
+$$
+interest  =  balance * (AnnualInterestRate / 1200)
+$$
+
+Write a program that reads the $balance$ and the annual percentage interest rate and displays the $interest$ for the next month.
+
+Save the program is `finance.py` and attach it to the Blackboard lab assignment.
+
+Draw a flowchart of this program take a picture and save it as `flow3.png` and attach it to the Blackboard lab assignment.
+
+# Program 4: Physics - find runway length
+
+Given an airplane’s acceleration $a$ and take-off speed $v$, you can compute the minimum runway $length$ needed for an airplane to take off using the following formula:
+
+$$
+length = v^2 / 2a
+$$
 
 
-## Personal Diary Management System
+Write a program that prompts the user to enter velocity $v$ and acceleration $a$ and displays the minimum runway $length$.
 
-### Objective
- Understand and practice file handling in C++ using ifstream and ofstream classes. Develop a basic Personal Diary Management System to create, read, and update diary entries.
+Save the program is `physics.py` and attach it to the Blackboard lab assignment.
 
+Draw a flowchart of this program take a picture and save it as `flow4.png` and attach it to the Blackboard lab assignment.
 
-### Problem Statement
+## Grading Rubric for each of the programs:
 
-Design a command-line interface (CLI) Personal Diary Management System that has the following features:
+<table>
+    <tr>
+        <td>Grading</td>
+        <td>Points Possible</td>
+    </tr>
+    <tr>
+        <td>Appropriate header and comments</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Input</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>Flowchart</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>Computation</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Print output</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Tracing</td>
+        <td>5</td>
+    </tr>
+</table>
 
-- Add an Entry: Each diary entry consists of a date and associated text. The entry is saved to a file with the name format YYYY_MM_DD.txt 
-(e.g., 2023_09_07.txt for 7th September 2023).
-
-- Read an Entry: Users can input a date. The system should display the diary entry for the given date if it exists or display a message stating that the entry doesn't exist.
-
-- Update an Entry: Users can input a date and the new text they'd like to save. If an entry for the date exists, append to it. If not, create a new entry.
-
-
-### Instructions:
-
-Use the `fstream` header. Use `ifstream` to read from files and `ofstream` to write to files. Create appropriate error handling for file operations, such as when a file doesn't exist or there's an error during reading/writing. Keep the user interface simple, text-based, and intuitive.
-
-The code for this exercise is in the lab2 repository. Read the description below, and then enter your code in the `diary.cpp` file where it says: 
-```c++
-// TODO: Write your code here.
-```
-
-To **append** to a file. You can open the file with the `ofstream::app` option, like this:
-
-```c++
-    ofstream diaryEntryFileStream;
-    diaryEntryFileStream.open(filename, ofstream::app);
-```
-
-<div class="requirement">
-When you finish and test your code, write in the README.md file how your code works. 
-</div>
-
-Here is some sample output:
-
-```Shell
-$ ./diary
-Welcome to the Personal Diary Management System 1.0
-
-Choose an operation:
-(x) : Exit
-(n) : Create a New Entry
-(r) : Read an Entry
-(a) : Append to an Entry
-n
-Please enter the diary entry date in the format YYYY_MM_DD: 2023_09_08
-Type your diary text for 2023_09_08 (Enter END on a new line when done.):
-Dear Diary,
-Today I wrote a diary entry program.
-END
-
-Choose an operation:
-(x) : Exit
-(n) : Create a New Entry
-(r) : Read an Entry
-(a) : Append to an Entry
-a
-Please enter the diary entry date in the format YYYY_MM_DD: 2023_09_08
-Type your diary text for 2023_09_08 (Enter END on a new line when done.):
-The program worked!
-END
-
-Choose an operation:
-(x) : Exit
-(n) : Create a New Entry
-(r) : Read an Entry
-(a) : Append to an Entry
-r
-Please enter the diary entry date in the format YYYY_MM_DD: 2023_09_08
-
-Dear Diary,
-Today I wrote a diary entry program.
-
-The program worked!
-
-Choose an operation:
-(x) : Exit
-(n) : Create a New Entry
-(r) : Read an Entry
-(a) : Append to an Entry
-r
-Please enter the diary entry date in the format YYYY_MM_DD: 2025_01_01
-Could not find diary entry for 2025_01_01
-
-Choose an operation:
-(x) : Exit
-(n) : Create a New Entry
-(r) : Read an Entry
-(a) : Append to an Entry
-x
-```
-    
+**TOTAL	25 points for each program**
 
 ---
