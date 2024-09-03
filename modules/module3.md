@@ -142,7 +142,7 @@ i
 print(i)
 ```
 
-Type up the program in `my_variable_example3.py` What is the error? Answer in module3.txt. (Remember, non-coding questions are to be answered in your module text file, in this case: `module4.txt`.)
+Type up the program in `my_variable_example3.py` What is the error? Answer in module3.txt. (Remember, non-coding questions are to be answered in your module text file, in this case: `module3.txt`.)
 
 ---
 
