@@ -10,6 +10,16 @@ permalink: module/2
 
 **Note:** Create a text file called `module2.txt` where you will store you answers to exercise questions. The questions that are not related to changing code. You will submit this file on Blackboard along with your code. 
 
+## Objectives
+
+By the end of this module you will be able to:
+* Learn what a comment is, and how to write them
+* Write programs with multiple prints
+* Escape sequences
+* Identify new syntactic elements
+* Understand case-sensitivity
+* Find and fix errors
+ 
 ## Comments
 
 A comment is like a note-to-self that you include directly in a program as a way to explain something to yourself for later, or to someone else who reads your program.
