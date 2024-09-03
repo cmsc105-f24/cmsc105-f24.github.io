@@ -1,15 +1,18 @@
 ---
 layout: default
 permalink: /guides/tracing
-title: Tracing Worksheet
+title: Tracing Guide
 ---
 
-# Tracing Worksheet
+# Tracing Guide
 
 The ability to trace your code is essential for debugging. Given some arbitrary Python code, you should always be able to answer the questions:
 
 * What line gets executed next?
 * What is the current _state_ of memory? In other words, which values are currently assigned to which variables?
+
+<br />
+
 
 ## Instructions
 Trace the execution of a program by filling in the a tracing table.
@@ -20,7 +23,7 @@ Trace the execution of a program by filling in the a tracing table.
 4. In __Output__, write down any text if any, that will be printed.
 
 
-Tracing table:
+### Tracing table:
 
 <table style='border-left: 1px solid #dedede; border-top: 1px solid #dedede;'>
     <tr style='border-right: 1px solid #dedede;'>
@@ -54,6 +57,10 @@ Tracing table:
         <td style='border-right: 1px solid #dedede;'>&nbsp;</td>
     </tr>
 </table>
+
+<br />
+<br />
+<br />
 
 
 ## Example 1
@@ -94,7 +101,9 @@ Tracing table:
     </tr>
 </table>
 
-
+<br />
+<br />
+<br />
 
 ## Example 2
 
@@ -138,3 +147,10 @@ Tracing table:
         <td style='border-right: 1px solid #dedede;'>Odd</td>
     </tr>
 </table>
+
+<br />
+<br />
+
+
+---
+
