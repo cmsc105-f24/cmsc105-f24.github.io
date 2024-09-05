@@ -75,4 +75,56 @@ The energy needed is 1625484.0 joules
 **Note:** Take a picture of the flowchart and attach it to Blackboard as `flowchart2.png`.  Write the code in a file called `energy.py` and turn in this file.  Take a picture of the tracing table that you created attach it to Blackboard as `tracing2.png`. 
 
 
+## Exercise 3: Convert pounds into kilograms
+
+Design a program that converts pounds into kilograms. The program prompts the user to enter a value in pounds, converts it to kilograms, and displays the result. One pound is 0.454 kilograms. Also, trace this program and show the values that will be stored in memory and the output value (using values in sample run).
+
+Here is a sample run:
+```
+Enter a value in pounds: 55.5
+55.5 pounds is 25.197 kilograms
+```
+
+1. __First__ design the program by drawing a __flowchart__. 
+2. __Next__, write the program __code__.
+3. __Finally__, trace this program by drawing and filling out a __tracing table__ that shows the values that will be stored in memory and the output value (using values in the sample run). 
+
+* Use the following guides as references:
+    * [Flowchart Guide](../guides/flowchart)
+    * [Tracing Guide](../guides/tracing)
+
+**Note:** Take a picture of the flowchart and attach it to Blackboard as `flowchart3.png`.  Write the code in a file called `conversion.py` and turn in this file.  Take a picture of the tracing table that you created attach it to Blackboard as `tracing3.png`.
+
+
+## Exercise 4: Financial application: calculate tips
+
+Design a program that reads the subtotal and the gratuity rate and computes the gratuity and total. For example, if the user enters 10 for the subtotal and 15% for the gratuity rate, the program displays 1.5 as gratuity (subtotal * gratuity rate) and 11.5 as total (gratuity + subtotal).
+
+Here is a sample run:
+```
+Enter the subtotal and a gratuity rate: 15.69, 15		
+The gratuity is 2.35 and the total is 18.04
+```
+
+Hint:
+* Note: There is 1 input statement that asks for both `subtotal` and `gratuity` values, i.e. using comma separated values, you can enter 2 values. Don't forget to separate the values entered by a comma (see sample run above). This is an example of simultaneous assignment (refer Lecture 2 slides)
+    ```python
+    subtotal, gratuity_rate = eval(input("Enter the subtotal and a gratuity rate: "))  
+    ```
+* If the gratuity value is stored in a variable named `gratuity` and total value is stored in a variable named `total`. Print statement can be printed as:
+    ```python
+    print("The gratuity is", gratuity," and the total is", total)
+    ```
+* To round the results you can use the Python `round` function. The `round` function takes both the number you want to round and the number of decimal digits to round to.  For example, if you want to round to two decimals you can use, `gratuity = round(gratuity, 2)`.
+
+1. __First__ design the program by drawing a __flowchart__. 
+2. __Next__, write the program __code__.
+3. __Finally__, trace this program by drawing and filling out a __tracing table__ that shows the values that will be stored in memory and the output value (using values in the sample run). 
+
+* Use the following guides as references:
+    * [Flowchart Guide](../guides/flowchart)
+    * [Tracing Guide](../guides/tracing)
+
+**Note:** Take a picture of the flowchart and attach it to Blackboard as `flowchart4.png`.  Write the code in a file called `tips.py` and turn in this file.  Take a picture of the tracing table that you created attach it to Blackboard as `tracing4.png`.
+
 ---
