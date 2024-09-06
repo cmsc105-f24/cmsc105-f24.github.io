@@ -65,7 +65,7 @@ Save the program is `finance.py` and attach it to the Blackboard lab assignment.
 
 Complete a [tracing table](../guides/tracing) of the program above and take a picture and save it as `trace3.png` and attach it to the Blackboard lab assignment.
 
-# Program 4: Physics - find runway length
+## Program 4: Physics - find runway length
 
 Draw a [flowchart](../guides/flowchart) of the program design take a picture and save it as `flow4.png` and attach it to the Blackboard lab assignment.
 
