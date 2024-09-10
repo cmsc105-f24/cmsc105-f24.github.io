@@ -10,36 +10,21 @@ permalink: /lecture/q1
 Review the course topics and content that will be assessed on the first quiz.
 
 ## Quiz Details
-* Paper quiz
-* __5 multi-part questions__ (10 points each), you will be asked to review code and answer questions about the code or draw something like a memory diagram
-* Total of 50 points
-* 30 minutes to complete the quiz
+* __5 multi-part questions__ (10 points each), you will be asked to review code and answer questions about the code or draw something like a flowchart.
+* Total of 100 points
+* 45 minutes to complete the quiz
 
 
 ## What to Study
 
-__Other resources:__
-[Unix Tutorial](https://users.cs.duke.edu/~alvy/courses/unixtut/)
-* Read Tutorial 1 - 5
-    - Change directories
-    - Print current directory to terminal
-    - List files
-    - Copy files, including with wildcards (e.g. *)
-    - Create directories
-    - Change access control permissions for files and directories
-    - Redirect output
-    
 
-__Text book__: [Programming Principles and Practice Using C++, 2nd Edition](https://richmond.primo.exlibrisgroup.com/permalink/01URICH_INST/191gg5k/alma9928032248406241) by Bjarne Stroustrup 
+__Text book__: 
 
 * Chapter 2 Hello, World!
     - Read Section 2.3 Compilation
     - Read Section 2.4 Linking
-* Chapter 17 Vector and Free Store
-    - Read Section 17.3 Memory, addresses, and pointers
-    - Read Section 17.4 Free store (heap) and pointers
-    - Read Section 17.9.1 Pointer and reference parameters
-    - Read Section 17.9.2 Pointers, references, and inheritance
+* Chapter 2 Vector and Free Store
+
 
 __Lectures__:
 * Slides: [C++ Basics](02-Language-Basics.pdf)
