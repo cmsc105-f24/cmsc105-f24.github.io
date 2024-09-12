@@ -15,6 +15,6 @@ Review the course topics and content that will be assessed on the forth quiz.
 * 30 minutes to complete the quiz
 
 ## What to Study
-   
+
 
 
