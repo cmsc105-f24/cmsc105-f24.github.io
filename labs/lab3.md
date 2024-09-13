@@ -7,7 +7,7 @@ permalink: lab/3
 
 __Points Possible:__ 100
 
-__Due:__ Thursday, September 12th 
+__Due:__ Thursday, September 19th 
 
 In this lab, we will practice the concepts learned in week three. We will use math module functions, string functions, and Python programming to solve the problems.
 
