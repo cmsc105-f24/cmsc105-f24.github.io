@@ -69,7 +69,7 @@ Complete a [tracing table](../guides/tracing) of the program above and take a pi
 
 Draw a [flowchart](../guides/flowchart) of the program design take a picture and save it as `flow4.png` and attach it to the Blackboard lab assignment.
 
-Given an airplane’s acceleration $a$ and take-off speed $v$, you can compute the minimum runway $length$ needed for an airplane to take off using the following formula:
+Given an airplane’s acceleration $a$ and takeoff speed $v$, you can compute the minimum runway $length$ needed for an airplane to takeoff using the following formula:
 
 $$
 length = v^2 / 2a

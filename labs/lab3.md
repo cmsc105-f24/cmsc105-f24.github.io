@@ -3,7 +3,7 @@ layout: default
 permalink: lab/3
 ---
 
-# Lab 3: Pointers and References in C++
+# Lab 3: Math and Strings in Python
 
 __Points Possible:__ 100
 
