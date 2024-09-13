@@ -40,7 +40,7 @@ Write a program that prints the results of the following:
    ```
 5.	
    ```python
-   string_val=" Introduction to Computing."
+   string_val="Introduction to Computing."
    string_val[2:]
    ```
 
