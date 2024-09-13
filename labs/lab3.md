@@ -44,7 +44,7 @@ Write a program that prints the results of the following:
    string_val[2:]
    ```
 
-Save the program is `math.py` and attach it to the Blackboard lab assignment. 
+Save the program is `math2.py` and attach it to the Blackboard lab assignment. 
 
 
 ## Program 2: Compute Interest
