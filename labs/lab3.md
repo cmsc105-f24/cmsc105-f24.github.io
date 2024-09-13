@@ -51,6 +51,67 @@ Save the program is `math.py` and attach it to the Blackboard lab assignment.
 
 Write a program that reads the values of total amount and interest rate. Then prints the value of the interest amount. Please display the result up to 2 decimal places.
 
+Use the formula:
 
+$$
+interestAmount = totalAmount * interestRate
+$$
 
 Save the program is `interest.py` and attach it to the Blackboard lab assignment. 
+
+## Program 3: Math Library
+
+Using math library functions, write a program that reads the value of 2 numbers `a`, `b` and solve the following equations:
+
+$$
+\sqrt{(a^2 + b^2)}
+$$
+
+$$
+a^b + \log a
+$$
+
+Please display the results up to 2 decimal places. Please use `math.log` function for natural log.
+
+Save the program is `library.py` and attach it to the Blackboard lab assignment. 
+
+
+## Program 4: Grade Count
+
+Suppose the text below indicates the grades of students and the text is stored in a variable, compute the total count of students who got "Grade-A", "Grade-B" and "Grade-C" and display the counts. **Hint:** You can use the `count` function.
+
+string_val = "User1:Grade-A, User2:Grade-B, User3:Grade-C, User4:Grade-A, User5:Grade-B, User6: Grade-A, User7: Grade-C, User8: Grade-B, User9:Grade-A, User10: Grade-A, User11: Grade-C, User12: Grade-A, User13: Grade-B, User14: Grade-C, User15: Grade-A"
+
+Save the program is `grades.py` and attach it to the Blackboard lab assignment. 
+
+
+## Grading Rubric for the programs:
+
+<table>
+    <tr>
+        <td>Grading</td>
+        <td>Points Possible</td>
+    </tr>
+    <tr>
+        <td>Appropriate header and comments</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Input</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Computation</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Print output</td>
+        <td>5</td>
+    </tr>
+</table>
+
+
+
+**TOTAL	25 points for each program**
+
+---
