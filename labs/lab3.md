@@ -85,6 +85,8 @@ string_val = "User1:Grade-A, User2:Grade-B, User3:Grade-C, User4:Grade-A, User5:
 Save the program is `grades.py` and attach it to the Blackboard lab assignment. 
 
 
+* Starter code here [grades.py](https://raw.githubusercontent.com/cmsc105-f24/cmsc105-f24.github.io/main/labs/grades.py)
+
 ## Grading Rubric for the programs:
 
 <table>
