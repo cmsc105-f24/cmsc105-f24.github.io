@@ -15,7 +15,7 @@ The ability to trace your code is essential for debugging. Given some arbitrary 
 
 
 ## Instructions
-Trace the execution of a program by filling in the a tracing table.
+Trace the execution of a program by filling in a tracing table.
 
 1. In __Step__, number the step of execution.
 2. In __Memory State__, show the values of all variables currently in memory _after_ the line has executed, e.g., `x: 5`
