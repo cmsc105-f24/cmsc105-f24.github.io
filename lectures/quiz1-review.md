@@ -5,173 +5,160 @@ permalink: /lecture/q1
 
 # Quiz 1 review 
 
-### Objective
-
-Review the course topics and content that will be assessed on the first quiz.
-
-## Quiz Details
-* __5 multi-part questions__ (10 points each), you will be asked to review code and answer questions about the code or draw something like a flowchart.
-* Total of 100 points
-* 45 minutes to complete the quiz
+## Background 
+The quiz will be based on the topics covered in weeks 1 through 3. There are 3 sections — short answer questions, tracing, and a programming problem. Students are allowed to use the Thonny IDE for __Section III only__. Please see the grading rubric for the programming problem. Scratch paper and a simple calculator are allowed.
 
 
-## What to Study
-
-
-__Text book__: 
-
-* Chapter 2 Hello, World!
-    - Read Section 2.3 Compilation
-    - Read Section 2.4 Linking
-* Chapter 2 Vector and Free Store
-
-
-__Lectures__:
-* Slides: [C++ Basics](02-Language-Basics.pdf)
-* Slides: [Strings and Functions](03-Strings-Functions.pdf) 
-    - Functions 
-    - Strings
-    - Command-Line Arguments 
-* Slides: [Collections and File I/O](04-Collections-FileIO.pdf)
-    - Vectors
-    - File I/O 
-* Slides: [Pointers and Memory](05-Memory-Pointers.pdf)
-    - Memory
-    - Pointers
-    - Garbage Values
-    - Memory Layout
-* Slides: [References and Heap](06-References-Heap.pdf) 
-    - References
-    - Heap (Free store)
-        * Allocation
-        * Deallocation
-
-    
-## Practice Questions <a class="anchor" id="practice"></a>
-
-### Know your Linux commands
-
-* How to change directory?
-    * To the parent directory
-    * To your home directory
-
-* How to print the current working directory?
-
-* How to copy files?
-    * Copy files with wildcards
-
-* How to move files?
-
-* How to create a new directory?
-
-* How to change the permissions on a file with the chmod command?
-
-
-### Pass by value, pass by pointer, pass by reference
-
-Consider the following C++ code. 
-* What will be the output of this code when run? 
-
-__passby.cpp__
-```c++
-#include <iostream>
-using namespace std;
-
-void passByValue(float copyOfValue) 
-{
-    copyOfValue = 1234.567;
-}
-
-void passByPointer(float* addressOfValue) 
-{
-    *addressOfValue = 1234.567;
-}
-
-void passByReference(float& referenceToValue) 
-{
-    referenceToValue = 9876.543;
-}
-
-int main() 
-{
-    float value = 5551.212;
-
-    passByValue(value);
-
-    cout << value << endl;
-
-    passByPointer(&value);
-
-    cout << value << endl;
-
-    passByReference(value);
-
-    cout << value << endl;
-
-    return 0;
-}
+## Section I (20 points)
+		
+**1** Show the output of the following:
+```python
+import math
+print(math.floor(9.6))
 ```
 
-### Memory layout
-
-![MemoryLayout](../images/MemoryLayout.png "MemoryLayout")
-
-### Command line arguments
-
-__args.cpp__
-```c++
-#include <iostream>
-
-using namespace std;
-
-int main(int argc, char* argv[])
-{
-    if (argc != 2) // argc counts the num of CLPs
-    {
-        cerr << "Usage: " << argv[0]
-             << " <first name>" << endl;
-        exit(1);
-    }
-
-    cout << "Hello " << argv[1] << endl;
-
-    return 0;
-}
-```
-Consider the C++ program __args.cpp__ above.
-* You compiled the code: `$ g++ args.cpp -o args`
-* What is the output of `$ ./args goodbye`
-
-
-### Draw the State of Stack Memory
-
-__swap.cpp__
-```c++
-#include <iostream>
-using namespace std;
-
-// Swap two int values.
-void swap(int* a, int* b)
-{
-    int temp = *a;   // store contents of a in temp
-    *a = *b;         // put contents of b into a
-    *b = temp;       // put temp a into b
-    
-    // Draw the state of memory here <----
-
-}
-
-int main()
-{
-    int x = 12;
-    int y = 33;
-    swap(&x, &y);  // pass by pointer
-    cout << "x == " << x << "  y == " << y << endl;
-    return 0;
-}
+**2** Show the output of the following:
+```python
+print(abs(-14.2))
 ```
 
-![MemoryGrid](../images/MemoryGrid.png "MemoryGrid")
+**3** Show the output of the following:
+```python
+print(round(5.78437234, 2))
+```
 
-Consider the C++ program __swap.cpp__ above.
-* Fill in the state of the stack memory at the location shown in the C++ code above marked `// Draw the state of memory here`.  Make sure to write in the name of the variable and the value of the variable. Use the memory address `0x123` for the address of `x` and `0x127` for `y`. Draw an arrow from any pointers to their associated value. Put the letter `G` in any squares that are __garbage values__ in memory. Each of the grid boxes is one byte of memory.  
+**4** Show the output of the following:
+```python
+import math
+print(math.pow(4, 2))
+```
+
+**5** Show the output of the following:
+```python
+import math
+print(math.sqrt(36))
+```
+
+**6** What will be the output of the following:
+```python
+string_val = "Python Programming"
+result = string_val.find('m')
+print(result)
+```
+
+**7** What will be the output of the following:
+```python
+string_val = "Python Programming"
+result = string_val.lower()
+print(result)
+```
+
+**8** What will be the output of the following:
+```python
+string_val = "Python Programming"
+result = string_val * 3
+print(result)
+```
+
+**9** What will be the output of the following:
+```python
+string_val = "Python Programming"
+result = string_val[3:8]
+print(result)
+```
+
+**10** What will be the output of the following:
+```python
+string_val = "Python Programming"
+result = string_val[:-4]
+print(result)
+```
+
+
+
+## Section II (30 points)
+
+Trace the execution of the following program by filling in a tracing table. You can draw the tracing table on a piece of paper and include an image file (`tracing.png`) on Blackboard. 
+
+You may use the following guide for reference: 
+* [Tracing Worksheet](/guides/tracing)
+
+**Note:**  Assume that the user enters `20` for the height.
+```python
+import math
+
+# Constants
+g = 9.81  # Acceleration due to gravity (m/s^2)
+
+# Read the height from which the object is dropped from the user
+height = float(input("Enter the height dropped (in meters): "))
+
+# Calculate the time it takes to hit the ground using the formula t = sqrt(2h/g)
+time_to_hit_ground = math.sqrt(2 * height / g)
+
+# Print the time to hit the ground
+print("Time to hit the ground is", round(time_to_hit_ground), "seconds.")
+
+
+```
+
+
+## Section III (50 points)
+
+
+Programming question:
+* You can use the Thonny Python IDE for writing the program.
+* You can draw the flowchart on a piece of paper and include an image file (`flowchart.png`) on Blackboard.
+
+You may use the following guide for reference: 
+* [Flowchart Guide](/guides/flowchart)
+
+
+<br />
+
+Create a program that reads in the $radius$ and $length$ of a cylinder and computes the $area$ and $volume$ using the following formulas:
+
+$$
+area = radius * radius * \pi
+$$
+
+$$
+volume = area * length
+$$
+
+* Where $\pi$ is 3.14159
+
+Please print the $area$ and $volume$ values. 
+
+* First, draw a flowchart of the program.
+
+* Next, write the code for the program. Save the program as `cylinder.py` and attach it to Blackboard.
+
+### Grading Rubric for Section III:
+
+<table>
+    <tr>
+        <td>Grading</td>
+        <td>Points Possible</td>
+    </tr>
+    <tr>
+        <td>Appropriate header and comments</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Input</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Flowchart</td>
+        <td>15</td>
+    </tr>
+    <tr>
+        <td>Computation</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>Print output</td>
+        <td>10</td>
+    </tr>
+</table>
