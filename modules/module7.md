@@ -3,7 +3,7 @@ layout: default
 permalink: module/7
 ---
 
-# Module 7: Build Automation with Make
+# Module 7: Conditionals
 
 * First read this page then start coding the module.
 * Post your Python files to Blackboard under the Module 7 assignment.
@@ -652,57 +652,67 @@ if (x != y) and (x != z):
 Here, read `!=` as "not equals".
  
 --- 
-`Exercise 11:` Type up the above in `my_boolean3.py`, then change `z` to be `6` (same as `y`). What do you observe?
+**Exercise 11:** Type up the above in `my_boolean3.py`, then change `z` to be `6` (same as `y`). What do you observe?
  
 --- 
 
 
-One can combine any number of and's, for example:
+One can combine any number of `and`'s, for example:
 
+```python
 x = 5
 y = 6
 z = 7
 
 if (x != y) and (x != z) and (y != z):
     print('x, y, z are all different')
-  
+
+```  
  
-The difference between != and not:
+The difference between `!=` and not:
 
-We should read != as "not equals" just as we read == as "equals".
-There is another operator called not, which applies to Boolean expressions, as we'll see next.
+* We should read `!=` as "not equals" just as we read `==` as "equals".
+* There is another operator called `not`, which applies to Boolean expressions, as we'll see next.
  
-The not operator
+The `not` operator
 
-One can apply the not operator to groups of clauses using additional parens:
-x = 8
+* One can apply the not operator to groups of clauses using additional parens:
 
-if not ( (x == 5) or (x == 6) ):
-    print('x is neither 5 nor 6')
-  
-Here, not is asking that whatever it applies to be false.
-Thus, consider the expression
-if not ( (x == 5) or (x == 6) ):
-  
-In this case, x is 8. So, neither of (x == 5) nor (x == 6) is true.
-Thus, the whole expression ( (x == 5) or (x ==6) ) is false.
-Which means not ( (x == 5) or (x ==6) ) evaluates to true.
-Therefore, the print executes.
+  ```python
+  x = 8
+
+  if not ( (x == 5) or (x == 6) ):
+      print('x is neither 5 nor 6')
+
+  ```  
+
+* Here, `not` is asking that whatever it applies to be `False`.
+
+* Thus, consider the expression
+  ```python
+  if not ( (x == 5) or (x == 6) ):
+  ```  
+
+* In this case, `x` is `8`. So, neither of `(x == 5)` nor `(x == 6)` is `True`.
+* Thus, the whole expression `( (x == 5) or (x ==6) )` is `False`.
+* Which means not `( (x == 5) or (x ==6) )` evaluates to `True`.
+* Therefore, the `print` executes.
  
-1.15 Exercise: Suppose integer variables a,b,c,d,e have values a=1, b=1, c=3, d=4, e=5. Consider the following three expressions:
+--- 
+**Exercise 12:** Suppose integer variables `a`, `b`, `c`, `d`, `e` have values `a = 1`, `b = 1`, `c = 3`, `d = 4`, `e = 5`. Consider the following three expressions:
 
-	( (a <= b) and (c+d > e) and (d > 1) )
+```python
+( (a <= b) and (c+d > e) and (d > 1) )
+```
 
-        ( (a > c) or ( (c+1 < e) and (c-b > a) ) )
+```python
+( (a > c) or ( (c+1 < e) and (c-b > a) ) )
+```
 
-        not ( (b == d-c) and (a > b) or (c < d) )
-  
-Try to evaluate each expression by hand. Then, in my_boolean4.py, write up each of these in an if-statement to see if the result matches with your hand-evaluation.
+```python
+not ( (b == d-c) and (a > b) or (c < d) )
+```
+
+Try to evaluate each expression by hand. Then, in `my_boolean4.py`, write up each of these in an if-statement to see if the result matches with your hand-evaluation.
  
-1.16 Exercise: In my_boolean5.py, write a program that begins with
-
-a = -3
-b = -4
-  
-and uses conditionals to print out the absolute difference between the two numbers. In the above case, the difference is 1. In the case of a=3, b=4, the difference is also 1. When a=-3, b=4, the difference is 7.
  
