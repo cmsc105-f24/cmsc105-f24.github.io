@@ -3,102 +3,90 @@ layout: default
 permalink: lab/4
 ---
 
-# Lab 4: Debugging and Exception Handling
+# Lab 4: if-else Statements
 
-### Instructions
-* First read this page then start working on lab with the GitHub classroom link below.
+__Points Possible:__ 100
 
-* Put your code in the GitHub repository for this lab.
+__Due:__ Thursday, September 26th 
 
-* After you complete the lab, answer the questions in the README.md file. Enter your answers directly in the README.md file.
+In this lab, we will write programs using _if-else_ statements.
 
-* Github Classroom Link: [https://classroom.github.com/a/oNrteK3G](https://classroom.github.com/a/oNrteK3G)
+Submission:
+1.	Submit a Python file for each of the four programs.
+
+### Pair programming
+
+Pair programming is a software development technique in which two programmers work together at one computer. One, the **driver**, writes code while the other, the **navigator**, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**
+
+* This is a **group assignment**, but you should each **turn in your code individually**. 
+* Groups will be assigned at the beginning of lab.
+* **Rules for groups work:**
+    * Do not divide and conquer, i.e., do not assign each person an exercise to work on individually.
+    * **Work together** on **each** exercise and share responsibilities, each person should have a chance to write code.
 
 
-### Objective
-Familiarize yourself with the essential features of the VSCode Debugger while working with a C++ programs. Learn and gain experience with errors and employ `try`/`catch` for exception handling.
+## Program 1: Oldest and Youngest
 
-### Part 1 - Debugging 
-* __Setup__:
-    - Open the file `ecommerce.cpp` in the `Part1` directory in the repository.
-* __Setting Breakpoints__:
-    - Set a __breakpoint__ at the start of the `main` function.
-    - Set another __breakpoint__ inside the `processOrder` function.
-    - Add a third __breakpoint__ in the `applyDiscount` function.
-* __Start Debugging__: 
-    - Launch the debugger. First click the debug icon in the activity bar on the left. Then click the "Run and Debug" button. 
-* __Stepping Through the Code__:
-    - When the debugger pauses at main, press "Step Over" until you get to the `processOrder` function call.
-    - Now, press "Step Into" to dive into the `processOrder` function.
-    - Inside the `processOrder` function, you'll soon see the `applyDiscount` function call. First, press "Step Over" to notice how you skip the internals of `applyDiscount` and directly get its return value.
-    - Run the `processOrder` function again. This time, when you're at `applyDiscount`, press "Step Into" to go inside it and inspect its inner workings.
-* __Observing the Call Stack__:
-    - Inside the `applyDiscount` function, take a moment to observe the CALL STACK pane. You should see the function hierarchy: `applyDiscount` called from `processOrder` which was called from `main`.
-* __Modifying Variables & Stepping Out__:
-    - In the `applyDiscount` function step over each line until you reach the `return discount` line.
-    - In the `applyDiscount` function, under the VARIABLES section of the debugger, change the value of discount to `20`.
-    - After making this change, press "Step Out" to move back to the `processOrder` function and observe how the change impacts the total cost.
-* __Completing Execution__:
-    - Press "Continue" to complete the program.
-    - Expected Output with discount set to 10:
-    ```
-    Total Cost for John Doe: $50.99
-    ```
-    - Expected Output with discount set to 20:
-    ```
-    Total Cost for John Doe: $45.99
-    ```
+Draw a [flowchart](../guides/flowchart) of the program design take a picture and save it as `flow1.png` and attach it to the Blackboard lab assignment.
 
-### Part 2 - More Debugging
+Write a program that reads ages of 3 different users and determine the oldest and youngest among them.	Display the results.
 
-* __Setup__:
-    - Open the file `factorial.cpp` in the `Part2` directory in the repository.
-* __Setting Breakpoints__: 
-    - Set a __breakpoint__ inside the factorial function.
-* __Start Debugging__: 
-    - Launch the debugger.
-    - As the debugger stops at the __breakpoint__:
-        * Inspect Variables: Hover over the variable n to observe its value during each recursive call.
-        * Step Through the Code: Use the step-over and step-into buttons to navigate through the recursive calls.
-    - Try to identify the reason why the recursion never terminates.
-* __Fixing the Recursive Function__:
-    - Once you've identified the missing base case, modify the factorial function to include a termination condition for the recursion.
-    - Debug the program again to ensure the recursive function now works correctly.
-    - Expected Output:
-    ```
-    Factorial of 10 is: 3628800
-    ```
-* __Now try__: 
-    - Modifying the input value (number) to larger values and see how high you can go before running into potential issues. 
-    - Observe how the call stack grows with larger input values.
-    - Introduce other recursive functions, like the Fibonacci sequence, and practice debugging them.
+Save the program is `ages.py` and attach it to the Blackboard lab assignment. 
 
- 
-### Part 3 - Exception Handling 
+Complete a [tracing table](../guides/tracing) of the program above and take a picture and save it as `trace1.png` and attach it to the Blackboard lab assignment.
 
-Your task is to enhance the `factorial.cpp` program in the `Part3` directory to handle potential errors gracefully. Here are the steps:
+**Grading Rubric for the program:**
+(Comments: 5, Input and output: 5, Computation: 10, flowchart and tracing: 10) 
+**Total: 30 points**
 
-* __Check for Negative Inputs__: The factorial function is only defined for non-negative integers. Modify the factorial function to check if the input number n is negative. If it is, throw an appropriate exception.
 
-* __Handle Potential Overflow__: The result of the factorial calculation can grow rapidly for even relatively small input values. Before each multiplication, check if the next multiplication would cause an overflow. If an overflow is detected, throw an appropriate exception. __Hint__: You might find numeric_limits<unsigned long long>::max() useful for this check.
+## Program 2: Find future days
 
-```c++
-if (result > numeric_limits<unsigned long long>::max() / i) 
-{
-    throw overflow_error("Result will overflow.");
-}
+Draw a [flowchart](../guides/flowchart) of the program design take a picture and save it as `flow2.png` and attach it to the Blackboard lab assignment.
+
+Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, ..., and Saturday is 6). Also, prompt the user to enter the number of days after today for a future day and display the future day of the week. 
+
+Here is a sample run:
+```
+Enter today’s day: 1
+Enter the number of days elapsed since today: 3
+Today is Monday and the future day is Thursday
 ```
 
-* __Catch Exceptions in the `main` Function__: In the `main` function, use a __try-catch__ block to catch any exceptions thrown from the factorial function. Display an appropriate error message to the user if an exception is caught.
+_Hint: You can see the example from Lecture 2 slides for future day calculation._
 
-* __Test Your Program__: Run your program and test it with various input values, including negative numbers and numbers that might cause an overflow, to ensure that your error handling works as expected.
+Save the program is `days.py` and attach it to the Blackboard lab assignment. 
 
-* __Remember__: Proper error handling is essential for building robust and user-friendly software. Take this opportunity to practice identifying potential errors in code and handling them gracefully!
+Complete a [tracing table](../guides/tracing) of the program above and take a picture and save it as `trace2.png` and attach it to the Blackboard lab assignment.
 
-
-<div class="requirement">
-After you complete the lab, answer the questions in the README.md file. Enter your answers directly in the README.md file.
-</div>
-
+**Grading Rubric for the program:**
+ (Comments: 5, Input and output: 5, Computation: 20, flowchart and tracing: 10)
+**Total: 40 points**
 
 
+## Program 3: Divisible By
+
+Draw a [flowchart](../guides/flowchart) of the program design take a picture and save it as `flow3.png` and attach it to the Blackboard lab assignment.
+
+Write a program that reads a number from the user and checks the following:
+a. Number is divisible by 2 and 3
+b. Number is divisible by 2 or 3
+c. Number is divisible by 2 or 3 but not both
+
+The program will display the results.
+
+Note: There will be 3 different `if` statements as these are independent conditions.
+
+Save the program is `divisible.py` and attach it to the Blackboard lab assignment. 
+
+Complete a [tracing table](../guides/tracing) of the program above and take a picture and save it as `trace3.png` and attach it to the Blackboard lab assignment.
+
+**Grading Rubric for the program:**
+(Comments: 5, Input and output: 5, Computation: 10, flowchart and tracing: 10)
+**Total: 30 points**
+
+
+
+
+
+---
