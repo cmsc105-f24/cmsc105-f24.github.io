@@ -12,7 +12,7 @@ __Due:__ Thursday, September 26th
 In this lab, we will write programs using _if-else_ statements.
 
 Submission:
-1.	Submit a Python file for each of the four programs.
+1.	Submit a Python file for each of the programs.
 
 ### Pair programming
 
