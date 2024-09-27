@@ -26,7 +26,7 @@ Pair programming is a software development technique in which two programmers wo
 
 ## Program 1: `while` loop
 
-Using `while` loop, write a program to `print` the first 50 even numbers starting from 1.
+Using `while` loop, write a program to `print` the first 50 even numbers starting from 2.
 
 Save the program is `loop.py` and attach it to the Blackboard lab assignment. 
 
