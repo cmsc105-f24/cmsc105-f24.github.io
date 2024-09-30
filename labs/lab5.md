@@ -37,7 +37,7 @@ Save the program is `loop.py` and attach it to the Blackboard lab assignment.
 
 ## Program 2: Names
 
-Using a loop (`for` or `while`), write a program that reads 10 different names from a user. If the name contains the letter 'e', continue with next iteration. If it doesn't contain the alphabet 'e', `print` the message "Name Accepted" and stop.								
+Using a loop (`for` or `while`), write a program that reads 10 different names from a user. If the name contains the letter 'e', continue with next iteration. If it doesn't contain the letter 'e', `print` the message "Name Accepted" and stop.								
 
 **Hint:** Use `find` function to search for a letter in the string.
 

@@ -512,6 +512,7 @@ Let's point out the difference between a _syntax_ error and a _logical_ error:
 * The process of identifying and fixing logical errors is called _debugging_.
 * A _bug_ is a logical error.
  
+---
 **Exercise 18:** The following code intends to print
 
 ```
@@ -530,3 +531,5 @@ for i in range(5, 0, 1):
 ```
 
 But there are two bugs. First, try to find the problems solely by reading and mental execution. Then, type up the program in `my_loop_exercise7.py`. What does it print? Report what you see in `module8.txt`. Then __fix the program__ to get the desired output.
+
+---
