@@ -41,13 +41,13 @@ This library provides all the tools to control the turtle. When you run your pro
 import turtle
 
 # Create a turtle object
-leonardo = turtle.Turtle()
+leo = turtle.Turtle()
 
 # Set the shape of the turtle
-leonardo.shape('turtle')
+leo.shape('turtle')
 
 # Move the turtle forward by 100 units
-leonardo.forward(100)
+leo.forward(100)
 ```
 
 Run the program and observe the turtle moving across the screen!
@@ -70,13 +70,13 @@ Let’s use these commands to draw a square.
 ```python
 import turtle
 
-leonardo = turtle.Turtle()
-leonardo.shape('turtle')
+leo = turtle.Turtle()
+leo.shape('turtle')
 
 # Move the turtle in a square
 for i in range(4):
-    leonardo.forward(100)
-    leonardo.right(90)
+    leo.forward(100)
+    leo.right(90)
 ```
 
 ---
@@ -101,17 +101,17 @@ You can change the thickness of the lines the turtle draws and its color:
 ```python
 import turtle
 
-leonardo = turtle.Turtle()
-leonardo.shape('turtle')
+leo = turtle.Turtle()
+leo.shape('turtle')
 
 # Set pen size and color
-leonardo.pensize(5)
-leonardo.pencolor('blue')
+leo.pensize(5)
+leo.pencolor('blue')
 
 # Draw a triangle
 for i in range(3):
-    leonardo.forward(150)
-    leonardo.left(120)
+    leo.forward(150)
+    leo.left(120)
 ```
 
 ---
@@ -129,19 +129,19 @@ We can use loops to easily create complex patterns without repeating code. For e
 ```python
 import turtle
 
-leonardo = turtle.Turtle()
-leonardo.shape('turtle')
+leo = turtle.Turtle()
+leo.shape('turtle')
 
 # Draw a flower by repeating a petal shape
 for i in range(36):
-    leonardo.forward(100)
-    leonardo.right(60)
-    leonardo.forward(100)
-    leonardo.right(120)
-    leonardo.forward(100)
-    leonardo.right(60)
-    leonardo.forward(100)
-    leonardo.right(10)
+    leo.forward(100)
+    leo.right(60)
+    leo.forward(100)
+    leo.right(120)
+    leo.forward(100)
+    leo.right(60)
+    leo.forward(100)
+    leo.right(10)
 ```
 
 ---
@@ -162,21 +162,21 @@ In addition to straight lines, the turtle can draw circles and arcs.
 ```python
 import turtle
 
-leonardo = turtle.Turtle()
-leonardo.shape('turtle')
+leo = turtle.Turtle()
+leo.shape('turtle')
 
 # Draw a circle (the sun)
-leonardo.pencolor('orange')
-leonardo.circle(50)
+leo.pencolor('orange')
+leo.circle(50)
 
 # Draw sun rays
 for i in range(12):
-    leonardo.penup()      # Pick up the pen
-    leonardo.goto(0, 50)  # Move to the center of the circle
-    leonardo.pendown()    # Put down the pen
-    leonardo.forward(100)
-    leonardo.backward(100)
-    leonardo.right(30)
+    leo.penup()      # Pick up the pen
+    leo.goto(0, 50)  # Move to the center of the circle
+    leo.pendown()    # Put down the pen
+    leo.forward(100)
+    leo.backward(100)
+    leo.right(30)
 ```
 
 ---
@@ -191,7 +191,7 @@ If the turtle is moving too slowly, you can change its speed using the `turtle.s
 
 ---
 
-**Exercise 6:** Add `leonardo.speed(10)` to your `turtle_flower.py` file and see how fast your flower is drawn! What happens when you change the speed value?
+**Exercise 6:** Add `leo.speed(10)` to your `turtle_flower.py` file and see how fast your flower is drawn! What happens when you change the speed value?
 
 ---
 
@@ -207,22 +207,22 @@ You can also fill shapes with colors using `turtle.begin_fill()` and `turtle.end
 ```python
 import turtle
 
-leonardo = turtle.Turtle()
-leonardo.shape('turtle')
+leo = turtle.Turtle()
+leo.shape('turtle')
 
 # Set fill color
-leonardo.fillcolor('yellow')
+leo.fillcolor('yellow')
 
 # Begin filling the star
-leonardo.begin_fill()
+leo.begin_fill()
 
 # Draw a star
 for i in range(5):
-    leonardo.forward(100)
-    leonardo.right(144)
+    leo.forward(100)
+    leo.right(144)
 
 # End filling
-leonardo.end_fill()
+leo.end_fill()
 ```
 
 ---
@@ -231,28 +231,7 @@ leonardo.end_fill()
 
 ---
 
-## Recap and Final Project
 
-You now know how to:
-- Move the turtle in different directions.
-- Change the turtle’s pen size and color.
-- Use loops to create repeated patterns.
-- Draw circles, arcs, and other shapes.
-- Fill shapes with color.
-
-### Final Project: Design Your Own Pattern
-
-Using everything you’ve learned in this module, create your own unique pattern in a new file called `turtle_project.py`. You can use loops, colors, shapes, and other turtle features. Be creative!
-
----
-
-**Submission Instructions:**
-- Submit the following files to Blackboard:
-  - `turtle_intro.py`
-  - `turtle_flower.py`
-  - `turtle_sun.py`
-  - `turtle_star.py`
-  - `turtle_project.py`
-
+**Exercise 8:** Using everything you’ve learned in this module, create your own unique pattern in a new file called `turtle_create.py`. You can use loops, colors, shapes, and other turtle features. Be creative!
 
 ---

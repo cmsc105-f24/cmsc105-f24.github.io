@@ -151,7 +151,7 @@ You may use the following guide for reference:
 
 ```python
 result = 1
-for n in range(5):
+for n in range(4):
     result = result * n
 print(result)
 ```
@@ -179,34 +179,45 @@ def meter_to_foot(meter):
 The formulas for the conversion are:
 
 $$
-foot = \frac{meter}{0.305}
+foot = \frac{meter}{0.3048}
 $$
 $$
-meter = 0.305 \times foot
+meter = 0.3048 \times foot
 $$
 
 Test your functions by writing code that invokes these functions to display the following tables:
 
 ```
-Feet	Meters
-1.0	    0.305
-2.0	    0.610
-...
-9.0		2.745
-10.0	3.050
+Feet Meters
+1 0.3048
+2 0.6096
+3 0.9144000000000001
+4 1.2192
+5 1.524
+6 1.8288000000000002
+7 2.1336
+8 2.4384
+9 2.7432000000000003
+10 3.048
 
-Meters  Feet
-20.0	66.574
-26.0	81.967
-...
-60.0	196.721
-66.0	213.115
+Meters Feet
+20 65.61679790026247
+21 68.89763779527559
+22 72.17847769028872
+23 75.45931758530183
+24 78.74015748031496
+25 82.02099737532808
+26 85.30183727034121
+27 88.58267716535433
+28 91.86351706036744
+29 95.14435695538057
+30 98.42519685039369
 ```
 
 
 In the code used to test your functions:
 * Use a loop and call the `foot_to_meter(foot)` function to print the table. Input statements are not required as the loop runs from `1` to `10` (see the sample table)
-* Use a loop and call `meter_to_foot(meter)` function to print the table. Input statements are not required as the loop runs from `20` to `66` (see the sample table)
+* Use a loop and call `meter_to_foot(meter)` function to print the table. Input statements are not required as the loop runs from `20` to `30` (see the sample table)
 * Save your program as `length.py` and attach it to Blackboard.
 
 ### Grading Rubric for Section III:
