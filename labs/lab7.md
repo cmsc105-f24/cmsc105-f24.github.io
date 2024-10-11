@@ -146,6 +146,16 @@ width = screen.window_width()
 height = screen.window_height()
 ```
 
+**Note:** If you want to add randomness you can use this:
+
+```python
+import random
+
+# Get a random integer between 1 and 100 (inclusive)
+random_number = random.randint(1, 100)
+print(random_number)
+```
+
 
 ## **Part 3: Customize Your Design**
 
@@ -168,12 +178,3 @@ height = screen.window_height()
 - **Creativity and Composition (40 points)**: Explore variations in design, line thickness, and color to create a unique composition.
   
 
-### Note: If you want to add randomness
-
-```python
-import random
-
-# Get a random integer between 1 and 100 (inclusive)
-random_number = random.randint(1, 100)
-print(random_number)
-```
