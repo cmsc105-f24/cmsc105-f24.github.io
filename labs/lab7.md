@@ -167,3 +167,13 @@ height = screen.window_height()
 - **Color Palette (30 points)**: Use of the De Stijl color palette (red, blue, yellow, black, white, and gray) to fill or outline the rectangles.
 - **Creativity and Composition (40 points)**: Explore variations in design, line thickness, and color to create a unique composition.
   
+
+### Note: If you want to add randomness
+
+```python
+import random
+
+# Get a random integer between 1 and 100 (inclusive)
+random_number = random.randint(1, 100)
+print(random_number)
+```
