@@ -156,8 +156,8 @@ height = screen.window_height()
 2. **Vary the Line Thickness**  
    - Adjust the thickness of the black lines separating the rectangles by using `t.pensize()`. Modify this slightly for a more dynamic effect.
 
-3. **Proportional Rectangles**  
-   - Keep the rectangles proportional to the grid, but allow variation in width and height. Ensure that some rectangles span multiple grid cells to create variety.
+3. **Proportional Rectangles** 
+    - Keep the rectangles proportional to the grid, but allow variation in width and height. Ensure that some rectangles span multiple grid cells to create variety.
 ---
 
 ## **Grading Criteria**:
