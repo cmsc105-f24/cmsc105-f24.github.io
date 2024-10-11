@@ -88,6 +88,8 @@ In this lab assignment, you will use **Turtle Graphics** to create an abstract a
 
 The final piece will consist of a grid of rectangles of varying sizes, with some filled with color and others left blank or outlined.
 
+**Note:** Use the [Turtle Graphics Guide](https://cmsc105-f24.github.io/guides/turtle) on the class website for help with the turtle commands.
+
 ## Submission Details
 
 Save your file as `art.py` and add this file the Lab 7 assignment on Blackboard.
