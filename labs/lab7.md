@@ -158,6 +158,7 @@ height = screen.window_height()
 
 3. **Proportional Rectangles** 
     - Keep the rectangles proportional to the grid, but allow variation in width and height. Ensure that some rectangles span multiple grid cells to create variety.
+
 ---
 
 ## **Grading Criteria**:
