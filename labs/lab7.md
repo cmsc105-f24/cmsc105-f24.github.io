@@ -55,7 +55,7 @@ Unlike Mondrian, who maintained strict adherence to vertical and horizontal line
 
 ### Example of van Doesburg’s Work:
 
-![Counter-Composition VI](../Images/Doesburg.jpg)
+![Counter-Composition VI](../images/Doesburg.jpg)
 *Counter-Composition VI* (1925) by Theo van Doesburg
 
 ### Van Doesburg’s Contributions:
