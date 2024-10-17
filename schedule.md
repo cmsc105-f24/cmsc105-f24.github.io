@@ -18,7 +18,7 @@ title: Schedule
 | 5    | Sep 24: <br />Slides: [Control Flow Examples](lectures/Lecture8_CS105.pdf) <br />Review: [Lab 2 Answers](lab/49430217)   | Sep 26: <br />Slides: [Loops](lectures/Lecture9_CS105.pdf) <br />Module 8: [Loops: the for-loop](module/8) (Due Thr Oct 3)    | Sep 27: <br />Lab 5: [Loops](lab/5) (Due Thr Oct 3)          |
 | 6    | Oct  1: <br />Slides: [Loop Examples](lectures/Lecture10_CS105.pdf) <br />Module 9: [Loops: the while-loop](module/9) (Due Tue Oct 8) <br />Reading [Assignment 3](reading/3)(Due Mon Oct 7) <br />Review: [Lab 3 Answers](lab/84727923)     | Oct  3: <br />Slides: [Functions](lectures/Lecture11_CS105.pdf) <br />Module 10: [Functions: a first look](module/10) (Due Thr Oct 10) | Oct  4: <br />Lab 6: [Functions](lab/6) (Due Thr Oct 10)         |
 | 7    | Oct  8:<br />[Quiz 2 Review](/lecture/q2)     | Oct 10: [**Quiz 2**](quiz/2)  <br />Module 11: [Turtle Graphics](module/11) (Due Thr Oct 17)   | Oct 11: <br />Lab 7: [Turtle Graphics](lab/7) (Due Thr Oct 17)         |
-| 8    | Oct 15: **Fall Break**     | Oct 17:      | Oct 18:          |
+| 8    | Oct 15: **Fall Break**     | Oct 17: <br />Slides: [Lists](lectures/Lecture15_CS105.pdf)<br />Reading [Assignment 4](reading/4)(Due Mon Oct 28)<br />Module 12: [Lists](module/12) (Due Thr Oct 24)     | Oct 18:          |
 | 9    | Oct 22:     | Oct 24:      | Oct 25:          |
 | 10   | Oct 29:     | Oct 31:      | Nov  1:          |
 | 11   | Nov  5:     | Nov  7: **Quiz 3**     | Nov  8:          |
