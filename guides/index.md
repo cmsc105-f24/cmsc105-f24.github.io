@@ -12,4 +12,5 @@ title: Guides
 * [Python Math Functions Guide](/guides/pymath)
 * [Math Module Functions Guide](/guides/math)
 * [Turtle Graphics Guide](/guides/turtle)
-
+* [List Methods Guide](/guides/list)
+* [Capture The Flag (CTF) Extra Credit](/guides/ctf)
