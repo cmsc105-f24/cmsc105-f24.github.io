@@ -8,7 +8,7 @@ title: List Methods Guide
 
 Here are a few useful list methods that work on list objects in Python. For a full list of list methods, refer to the Python reference here: [Python Reference List](https://www.w3schools.com/python/python_ref_list.asp).
 
-1. **`append(element)`**:
+- **`append(element)`**:
    - **Description**: Adds an element to the end of the list.
    - **Parameters**:  
      - `element`: The element to add to the list.
@@ -19,7 +19,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['apple', 'banana', 'cherry', 'orange']
      ```
 
-2. **`extend(iterable)`**:
+- **`extend(iterable)`**:
    - **Description**: Extends the list by appending all the elements from another iterable (e.g., another list).
    - **Parameters**:  
      - `iterable`: Any iterable (like a list or tuple) whose elements will be added to the list.
@@ -31,7 +31,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['apple', 'banana', 'cherry', 'mango', 'pineapple']
      ```
 
-3. **`insert(index, element)`**:
+- **`insert(index, element)`**:
    - **Description**: Inserts an element at a specified position.
    - **Parameters**:  
      - `index`: The position where the element should be inserted.
@@ -43,7 +43,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['apple', 'orange', 'banana', 'cherry']
      ```
 
-4. **`remove(element)`**:
+- **`remove(element)`**:
    - **Description**: Removes the first occurrence of a specified element from the list.
    - **Parameters**:  
      - `element`: The element to be removed.
@@ -54,7 +54,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['apple', 'cherry', 'banana']
      ```
 
-5. **`pop(index)`**:
+- **`pop(index)`**:
    - **Description**: Removes and returns the element at a specified position. If no index is specified, removes the last element.
    - **Parameters**:  
      - `index` (optional): The index of the element to remove. Defaults to the last item if not specified.
@@ -66,7 +66,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['apple', 'cherry']
      ```
 
-6. **`index(element)`**:
+- **`index(element)`**:
    - **Description**: Returns the index of the first occurrence of a specified element in the list. If the element is not found, it raises a `ValueError`.
    - **Parameters**:  
      - `element`: The element whose index needs to be found.
@@ -79,7 +79,19 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(position)  # Outputs: 1
      ```
 
-7. **`sort()`**:
+- **`count(element)`**:
+   - **Description**: Returns the number of times the specified element appears in the list.
+   - **Parameters**:  
+     - `element`: The element whose occurrences need to be counted.
+   - **Example**:
+     ```python
+     fruits = ["apple", "banana", "cherry", "banana"]
+     count_bananas = fruits.count("banana")
+     print(count_bananas)  # Outputs: 2
+     ```
+
+
+- **`sort()`**:
    - **Description**: Sorts the list in ascending order. If `reverse=True` is specified, sorts in descending order.
    - **Parameters**:  
      - `key` (optional): A function that serves as a key for the sort comparison.
@@ -93,7 +105,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['cherry', 'banana', 'apple']
      ```
 
-8. **`reverse()`**:
+- **`reverse()`**:
    - **Description**: Reverses the elements of the list in place.
    - **Parameters**: This method does not take any parameters.
    - **Example**:
@@ -103,7 +115,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: ['cherry', 'banana', 'apple']
      ```
 
-9. **`clear()`**:
+- **`clear()`**:
    - **Description**: Removes all elements from the list, leaving it empty.
    - **Parameters**: This method does not take any parameters.
    - **Example**:
@@ -113,7 +125,7 @@ Here are a few useful list methods that work on list objects in Python. For a fu
      print(fruits)  # Outputs: []
      ```
 
-10. **`copy()`**:
+- **`copy()`**:
     - **Description**: Returns a shallow copy of the list.
     - **Parameters**: This method does not take any parameters.
     - **Example**:

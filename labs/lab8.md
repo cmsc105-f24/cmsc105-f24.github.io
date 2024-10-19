@@ -88,6 +88,27 @@ The average score is 75.0
 
 Save the program is `scores.py` and attach it to the Blackboard lab assignment.
 
+
+Hint: 
+* You may want to convert the list of scores that you read in as input from a list of strings to a list of numbers. Here is one way to do that.
+
+```python
+# Convert the scores string to a list by using the split function.
+scores_list_of_strings = scores.split()
+
+# Convert the scores list from a list of strings
+# to a list of numbers
+# Start with an empty list
+scores_list = []
+
+# For each score string in the scores list
+for score_string in scores_list_of_strings:
+    # Append the score to the scores list
+    # after using the eval function to convert
+    # to the score string to a number.
+    scores_list.append(eval(score_string))
+```
+
 **Grading Rubric for the program:**
 (Headers and comments: 5 points, input: 5 points, computation: 15 points, result: 5 points)
 **Total: 30 points**
