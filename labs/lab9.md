@@ -3,53 +3,113 @@ layout: default
 permalink: lab/9
 ---
 
-# Lab 9: Templates in C++
+# Lab 9: More Lists
 
-## Instructions
-* First read this page then start working on lab with the GitHub classroom link below.
+__Points Possible:__ 100
 
-* Use the code in the GitHub repository for this lab.
+__Due:__ Thursday, October 31st
 
-* Github Classroom Link: [https://classroom.github.com/a/QNslZBCW](https://classroom.github.com/a/QNslZBCW)
+In this lab, we will write programs using Python _lists_.
 
-## Objective
-Develop an understanding of __C++ templates__, focusing on their application for code reusability and flexibility.
+Submission:
+1.	Submit a Python file for each of the programs.
+
+### Pair programming
+
+Pair programming is a software development technique in which two programmers work together at one computer. One, the **driver**, writes code while the other, the **navigator**, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**
+
+* This is a **group assignment**, but you should each **turn in your code individually**. 
+* Groups will be assigned at the beginning of lab.
+* **Rules for groups work:**
+    * Do not divide and conquer, i.e., do not assign each person an exercise to work on individually.
+    * **Work together** on **each** exercise and share responsibilities, each person should have a chance to write code.
+
+## Program 1: Concatenate Lists
+
+Given two lists: `list1` and `list2`, write a program to concatenate the list elements index-wise (i.e. create a new list and print it). You may assume that both `list1` and `list2` are the same length.
 
 
-## Exercise 1: Swap Function Template
+Sample lists:
+```python
+list1 = ['W','ar','learn','pyt']
+list2 = ['e','e','ing','hon']
+```
 
-Create a generic swap function using C++ templates that can interchange the values of two variables of any data type.
+Sample output:
+```
+['We', 'are', 'learning', 'python']
+```
 
-Put your code for this exercise in the `swap.cpp` file in the `Exercise1` folder in your GitHub repository.
+Save the program is `concatenate.py` and attach it to the Blackboard lab assignment.
 
-1. Create a function template called `swapValues` that can interchange the values of two variables of any data type.
-2. The function should be able to handle different data types (e.g., int, float, double) for the the values to be swapped.
-3. Update the `main` function in `swap.cpp` to demonstrate the usage of the `swapValues` function for different data types.
-4. In the `README.md` file in your GitHub repository. Write a few sentences describing how you used a C++ template to create a generic `swapValues` function.
+**Grading Rubric for the program:**
+(Headers and comments: 5 points, input: 5 points, computation: 20 points, result: 5 points)
+**Total: 35 points**
+
+# Program 2: Find Minimum
+
+Write a function `findMin(list_of_numbers)` that takes as input argument a list `list_of_numbers` and returns the __index__ of the minimum value in the list.
+
+Given:
+```python
+print(findMin([2,4,3,0,1]))
+```
+
+Sample output:
+```
+3                  
+```
+
+For above output, index of lowest element in the list i.e. 0 is lowest value with index 3.
 
 
-## Exercise 2: Area Function Templates
+Save the program is `min.py` and attach it to the Blackboard lab assignment.
 
-Create function templates to calculate the area of different geometric shapes.
+**Grading Rubric for the program:**
+(Headers and comments: 5 points, input: 5 points, computation: 20 points, result: 5 points)
+**Total: 35 points**
 
-Put your code for this exercise in the `area.cpp` file in the `Exercise2` folder in your GitHub repository.
+## Program 3: Grades
 
-1. Create three function templates that can calculate the area of different geometric shapes : `calculateAreaSquare`, `calculateAreaRectangle`, and `calculateAreaCircle`.
-2. The function should be able to handle different data types (e.g., int, float, double) for the dimensions of the shapes.
-3. Update the `main` function in `area.cpp` to demonstrate the usage of the calculateArea functions for different shapes and data types.
-4. In the `README.md` file in your GitHub repository. Write a few sentences describing how you used a C++ template to create generic calculateArea functions.
+Starter code found here:
+[grades.py](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/grades.py)
 
-## Exercise 3: Vector Class Template
+Finish the Python program above that will analyze a list of student grades. The program will allow the user to input grades, and then it will perform various operations such as finding the highest and lowest grades, calculating the average, sorting the grades, and determining if a specific grade exists in the list. You must complete the `calculate_average(grades)`, `find_max(grades)`, and `find_max(grades)` functions. Complete the functions by adding your code where it says  `### YOUR CODE GOES HERE: ###`. After you complete the functions, test the code.
 
-Implement a generic vector class in C++ using templates, providing a simplified version of the functionality offered by std::vector.
+Sample run:
+```
+How many grades do you want to input? 5
+Enter grade 1: 88
+Enter grade 2: 92
+Enter grade 3: 75
+Enter grade 4: 85
+Enter grade 5: 90
 
-Put your code for this exercise in the `Exercise3` folder in your GitHub repository.
+Menu:
+1. Display all grades
+2. Find the highest grade
+3. Find the lowest grade
+4. Calculate the average grade
+5. Sort the grades
+6. Check if a grade exists
+7. Remove a grade
+8. Exit
 
-1. Write a template class GenericVector with a template parameter for the element type. 
-2. Put this implementation into the files `GenericVector.h` and `GenericVector.cpp`
-3. Use the non-generic versions `IntVector.h` and `IntVector.cpp` files to help guide your coding.
-4. Update the `main` function in `main.cpp` to demonstrate the usage of `GenericVector` for different data types. Don't forget to add `GenericVector.h` to `main.cpp`.
-5. Modify the `Makefile` so that `GenericVector.h` and `GenericVector.cpp` are included when building the `main` target.
-6. In the `README.md` file in your GitHub repository. Write a few sentences describing how you used a C++ template to create generic vector class declaration and implementation.
+Enter your choice: 1
+Grades: [88, 92, 75, 85, 90]
+
+Enter your choice: 2
+Highest grade: 92
+
+Enter your choice: 4
+Average grade: 86.0
+```
+
+Save the program is `grades.py` and attach it to the Blackboard lab assignment.
+
+**Grading Rubric for the program:**
+(Headers and comments: 5 points, input: 5 points, computation: 15 points, result: 5 points)
+**Total: 30 points**
+
 
 
