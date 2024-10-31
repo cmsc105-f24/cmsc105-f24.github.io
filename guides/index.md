@@ -14,4 +14,5 @@ title: Guides
 * [Turtle Graphics Guide](/guides/turtle)
 * [List Methods Guide](/guides/list)
 * [Debugger Guide](guides/debug)
-* [Capture The Flag (CTF) Extra Credit](/guides/ctf)
+* [Dictionary Methods Guide](/guides/dictionary)
+
