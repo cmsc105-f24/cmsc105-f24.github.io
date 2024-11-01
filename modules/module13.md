@@ -283,6 +283,8 @@ Consider this problem:
 
 * We have a data file that looks like this:
 
+Download the file here: [fruits.txt](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/fruits.txt)
+
 **fruits.txt**
 ```
 apple
@@ -337,6 +339,8 @@ This might represent, for example, a record of sales at a fruit stand.
  
 --
 **Exercise 4:** Type up the above in `my_fruits.py` and use the data file `fruits.txt` to confirm. Next, in `my_fruits2.py`, change the program to accommodate the additional fruits in `fruits2.txt`.
+
+Download the file here: [fruits2.txt](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/fruits2.txt)
 
 **fruits2.txt**
 ```
