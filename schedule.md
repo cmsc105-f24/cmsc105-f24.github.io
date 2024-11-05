@@ -21,7 +21,7 @@ title: Schedule
 | 8    | Oct 15: **Fall Break**     | Oct 17: <br />Review: [Lab 5 Answers](lab/46294911) <br />Guide: [List Guide](guides/list) <br />Slides: [Lists](lectures/Lecture15_CS105.pdf)<br />Reading [Assignment 4](reading/4)(Due Mon Oct 28)<br />Module 12: [Lists](module/12) (Due Thr Oct 24) | Oct 18: <br />Lab 8: [Lists](lab/8) (Due Thr Oct 24) |
 | 9    | Oct 22:<br />Review: [Lab 6 Answers](lab/12831237) <br />Guide: [Debugger Guide](guides/debug)      | Oct 24: <br />Slides: [List Examples](lectures/Lecture16_CS105.pdf)     | Oct 25: <br />Guide: [CTF Extra Credit](guides/ctf) <br />Lab 9: [More Lists](lab/9) (Due Thr Oct 31)         |
 | 10   | Oct 29: <br />Slides: [Dictionaries](lectures/Lecture17_CS105.pdf) <br />Reading [Assignment 5](reading/5) (Due Mon Nov 4)<br />Module 13: [Tuples, Sets, and Dictionaries](module/13) (Due Tue Nov 5)    | Oct 31:   <br />Slides: [Dictionary Examples](lectures/Lecture18_CS105.pdf)<br />Guide: [Dictionary Guide](guides/dictionary)  | Nov  1: <br />Lab 10: [Dictionaries](lab/10) (Due Thr Nov 7)         |
-| 11   | Nov  5:     | Nov  7: **Quiz 3**     | Nov  8:          |
+| 11   | Nov  5: <br />[Quiz Review](/lecture/q3)    | Nov  7: **Quiz 3**     | Nov  8:          |
 | 12   | Nov 12:     | Nov 14:      | Nov 15:          |
 | 13   | Nov 19:     | Nov 21:      | Nov 22:          |
 | 14   | Nov 26:     | Nov 28: **Thanksgiving Break**      | Nov 29: **Thanksgiving Break**         |

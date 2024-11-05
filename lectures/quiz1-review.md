@@ -3,7 +3,7 @@ layout: default
 permalink: /lecture/q1
 ---
 
-# Quiz 1 review 
+# Quiz Review 
 
 ## Background 
 The quiz will be based on the topics covered in weeks 1 through 3. There are 3 sections — short answer questions, tracing, and a programming problem. Students are allowed to use the Thonny IDE for __Section III only__. Please see the grading rubric for the programming problem. Scratch paper and a simple calculator are allowed.

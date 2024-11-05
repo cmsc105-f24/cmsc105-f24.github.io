@@ -169,14 +169,14 @@ print(my_list)
 * **D.** dict.get()
 
 
-**9.** Write an expression that will correctly update the value of "age" to 26 in the dictionary?
+**9.** Write an expression that will correctly update the value of "age" to 26 in the dictionary.
 
 ```python
 person = {"name": "John", "age": 25, "city": "New York"}
 ```
 
 
-**10.** Write an expression to add a new key-value pair "country": "USA" to the dictionary `person`?
+**10.** Write an expression to add a new key-value pair "country": "USA" to the dictionary `person`.
 
 ```python
 person = {"name": "John", "age": 30, "city": "New York"}
@@ -195,21 +195,21 @@ lst = [12, 32, 33, 5, 7, 8]
 
 Write Python statements to do the following:
 
-**a.** Update the dictionary by adding a new item with key as "Jack" and value as `90`.
+* **a.** Update the dictionary by adding a new item with key as "Jack" and value as `90`.
 
-**b.** Write a for loop to print the keys and values in dictionary.
+* **b.** Write a for loop to print the keys and values in dictionary.
 
-**c.** Print value corresponding to the key "John"
+* **c.** Print value corresponding to the key "John"
 
-**d.** Update the value corresponding to "Eva" to `60`.
+* **d.** Update the value corresponding to "Eva" to `60`.
 
-**e.** Print the average of numbers in `lst`.
+* **e.** Print the average of numbers in `lst`.
 
-**f.** Get the _index_ location of `5` in `lst`.
+* **f.** Get the _index_ location of `5` in `lst`.
 
-**g.** Create a list of values in dictionary `d`.
+* **g.** Create a list of values in dictionary `d`.
 
-**h.** Find the sum of values in dictionary `d`.
+* **h.** Find the sum of values in dictionary `d`.
 
 
 ## Section III (40 points)
