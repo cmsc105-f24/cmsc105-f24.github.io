@@ -155,6 +155,67 @@ Enter 6 numbers separated by spaces: 25 88 12 42 9 3
 ```
 
 
+<br />
+Solution to the above programming problem:
+
+```python
+''' 
+Author name: <Your name here>
+This program will prompt a user to enter a sequence of 6 numbers separated by spaces.
+If the sequence length is not 6, display an appropriate message and exit.
+Otherwise, create a dictionary that stores the count of numbers above or equal to
+the average and the count of numbers below the average of the input numbers.
+'''
+
+# Prompt the user to enter the 6 numbers.
+numbers = input("Enter 6 numbers separated by spaces: ")
+
+# Split the number string into individual digits (character strings).
+list_of_string_numbers = numbers.split()
+
+# Check to see if the user entered exactly 6 numbers.
+# If they did then proceed to process the list of numbers,
+# else print an error message.
+if len(list_of_string_numbers) == 6:
+
+    # Create a new list to store the integer values after converting from string digits.
+    list_of_numbers = []
+    
+    # For each string version of the numbers in the list.
+    for string_num in list_of_string_numbers:
+        # Add the number to the list of numbers after converting it to an integer.
+        list_of_numbers.append(eval(string_num))
+        
+    # Calculate the average of the list of numbers.
+    average = sum(list_of_numbers) / len(list_of_numbers)
+    
+    # Create a new dictionary, with two keys.
+    # One key is used to store the count of numbers that are above or equal to the average.
+    # The other key is used to store the count of numbers that are below average.
+    dictionary = {"Above or equal to average":0, "Below average": 0}
+    
+    # For each number in the list of numbers.
+    # Check to see if that number is above or equal to the average. 
+    for num in list_of_numbers:
+        # If the number is above or equal to the average.
+        if num >= average:
+            # Increment the count of numbers in the dictionary that are above or equal to the average.
+            dictionary["Above or equal to average"] = dictionary["Above or equal to average"] + 1
+        else:
+            # Else increment the count of numbers that are below average.
+            dictionary["Below average"] = dictionary["Below average"] + 1
+    
+    # Print the dictionary.
+    print(dictionary)
+
+else:
+    # Print the error message 
+    print("You did not enter 6 numbers!")   
+
+```
+
+
+
 ### Grading Rubric for Section III:
 
 <table>
