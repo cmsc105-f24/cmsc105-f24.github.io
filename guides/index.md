@@ -15,4 +15,5 @@ title: Guides
 * [List Methods Guide](/guides/list)
 * [Debugger Guide](guides/debug)
 * [Dictionary Methods Guide](/guides/dictionary)
+* [File Input/Output Guide](/guides/file)
 

@@ -56,14 +56,14 @@ __Hint:__  First, iterate over each key of the dictionary, next iterate over eac
 for element in dict[key]:  # Here d[key] is a list.
 ```
 
-Save the program is `uniquevalues.py` and attach it to the Blackboard lab assignment.
+Save the program is `uniqueValues.py` and attach it to the Blackboard lab assignment.
 
 **Grading Rubric for the program:**
 (Headers and comments: 5 points, input: 5 points, computation: 30 points, result: 5 points)
 **Total: 45 points**
 
 
-## Program 3: Grades
+## Program 3: Min Max Mean
 
 Write a program that takes as input a list of numbers and prints a dictionary
 that contains key-value pairs for -- "Mean Value","Maximum Value" and
@@ -75,7 +75,7 @@ lst=[10,12,32,4]
 d={"Mean Value":14.5,"Maximum Value":32,"Minimum Value":4}
 ```
 
-Save the program is `grades.py` and attach it to the Blackboard lab assignment.
+Save the program is `minMaxMean.py` and attach it to the Blackboard lab assignment.
 
 **Grading Rubric for the program:**
 (Headers and comments: 5 points, input: 5 points, computation: 15 points, result: 5 points)
