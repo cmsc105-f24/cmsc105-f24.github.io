@@ -8,6 +8,18 @@ title: File I/O Guide
 
 Python provides several built-in functions to work with files, making it easy to read from and write to files on your system. Here’s a summary of key file operations in Python.
 
+- **Using a for loop with a file open**:
+  - **Example**:
+
+    ```python
+    # Open the file for reading.
+    with open("sample.txt", "r") as file:   
+        # For each line in a file.
+        for line in file:
+            # Print the line.
+            print(line)
+    ```
+
 - **`open(file, mode)`**:
    - **Description**: Opens a file and returns a file object. This is the first step in working with a file.
    - **Parameters**:  
