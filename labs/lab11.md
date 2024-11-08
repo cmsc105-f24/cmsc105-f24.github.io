@@ -66,7 +66,7 @@ Save the program as `uppercase_writer.py` and attach it to the Blackboard lab as
 
 ## Program 3: Grade Average Calculator
 
-Write a program `grade_calculator.py` that reads a list of grades from a file, calculates the average grade, and appends the average to the end of the file.  
+Write a program `grade_calculator.py` that reads a list of grades from a file, calculates the average grade, and __appends__ the average to the end of the file.  
 
 - Create a file called `grades.txt` with a list of integer grades, one per line.
 - Read all the grades, compute the average, and append the average grade to the end of the file in the format:  
