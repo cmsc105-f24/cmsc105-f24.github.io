@@ -27,7 +27,7 @@ Write a program `word_counter.py` that reads from a text file, counts the number
 
 **Sample Output:**
 ```
-Word count: 45
+Word count: 46
 ```
 
 Save the program as `word_counter.py` and attach it to the Blackboard lab assignment.
