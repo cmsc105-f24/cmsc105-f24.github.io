@@ -21,7 +21,7 @@ Submission:
 
 Write a program `word_counter.py` that reads from a text file, counts the number of words in the file, and outputs the count to the console.  
 
-- Create a file called `sample.txt` with a paragraph of text.  
+- Save the file called [sample.txt](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/sample.txt)
 - Your program should read the contents of `sample.txt` and count the words.
 - For simplicity, you can define a word as any sequence of characters separated by whitespace.
 
