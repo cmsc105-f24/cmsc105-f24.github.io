@@ -23,7 +23,7 @@ title: Schedule
 | 10   | Oct 29: <br />Slides: [Dictionaries](lectures/Lecture17_CS105.pdf) <br />Reading [Assignment 5](reading/5) (Due Mon Nov 4)<br />Module 13: [Tuples, Sets, and Dictionaries](module/13) (Due Tue Nov 5)    | Oct 31:   <br />Slides: [Dictionary Examples](lectures/Lecture18_CS105.pdf)<br />Guide: [Dictionary Guide](guides/dictionary)  | Nov  1: <br />Lab 10: [Dictionaries](lab/10) (Due Thr Nov 7)         |
 | 11   | Nov  5: <br />[Quiz Review](/lecture/q3)  <br />Review: [Lab 8 Answers](lab/80123817) <br />Review: [Lab 9 Answers](lab/79234791)  | Nov  7: <br />Guide: [File Input/Output Guide](guides/file) <br />[**Quiz 3**](quiz/3)     | Nov  8: <br />Lab 11: [File Input/Output](lab/11) (Due Thr Nov 14)          |
 | 12   | Nov 12:  <br />Slides: [Classes & Objects](lectures/Lecture19_CS105.pdf)<br />Reading [Assignment 6](reading/6) (Due Mon Nov 18)   | Nov 14:  <br />Slides: [Classes & Objects Examples](lectures/Lecture20_CS105.pdf) <br />Module 14: [Classes](module/14) (Due Thr Nov 21)   | Nov 15:  <br />Lab 12: [Classes](lab/12) (Due Thr Nov 21)        |
-| 13   | Nov 19:     | Nov 21:      | Nov 22:          |
+| 13   | Nov 19: <br /> Slides: [Build Pipelines](lectures/23-Build-Pipelines.pdf) <br /> Lecture Notes: [Unit Testing](notes/UnitTesting.md) <br /> Module 15: [Build Pipelines](modules/module15.md) (Due Tue Nov 26)     | Nov 21:      | Nov 22:          |
 | 14   | Nov 26:     | Nov 28: **Thanksgiving Break**      | Nov 29: **Thanksgiving Break**         |
 | 15   | Dec  3:     | Dec  5: **Quiz 4**      | Dec  6:          |
 | 16   | Dec 16: (Monday <u>2pm</u>):<br /> **Hackathon**     |             |                        |
