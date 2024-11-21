@@ -35,13 +35,10 @@ $$
 area=\sqrt{s(s-side1)(s-side2)(s-side3)}
 $$
 
-(Comments: 5 points, class and methods: 30 points, UML: 5 points, test program: 5 points, UML: 5 points)
-
 
 Save the program as `triangle.py` and attach it to the Blackboard lab assignment.
 
 Draw a UML diagram for the Triangle class and attach it to the Blackboard lab assignment. You can take a picture of the diagram, or use an online tool.
-
 
 **Grading Rubric for the program:**  
 (Comments: 5 points, class and methods: 30 points, UML: 5 points, test program: 5 points, UML: 5 points) 
