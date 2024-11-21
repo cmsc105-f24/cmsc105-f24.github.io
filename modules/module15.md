@@ -33,6 +33,11 @@ You need to import Matplotlib before using it. The most common way is:
 import matplotlib.pyplot as plt
 ```
 
+Use Thony to install the Matplotlib library on your machine.
+![Matplotlib library](../images/Matplotlib1.png)
+
+![Matplotlib library](../images/Matplotlib2.png)
+
 ---
 
 ## Example: A Simple Line Plot
