@@ -24,7 +24,7 @@ title: Schedule
 | 11   | Nov  5: <br />[Quiz Review](/lecture/q3)  <br />Review: [Lab 8 Answers](lab/80123817) <br />Review: [Lab 9 Answers](lab/79234791)  | Nov  7: <br />Guide: [File Input/Output Guide](guides/file) <br />[**Quiz 3**](quiz/3)     | Nov  8: <br />Lab 11: [File Input/Output](lab/11) (Due Thr Nov 14)          |
 | 12   | Nov 12:  <br />Slides: [Classes & Objects](lectures/Lecture19_CS105.pdf)<br />Reading [Assignment 6](reading/6) (Due Mon Nov 18)   | Nov 14:  <br />Slides: [Classes & Objects Examples](lectures/Lecture20_CS105.pdf) <br />Module 14: [Classes](module/14) (Due Thr Nov 21)   | Nov 15:  <br />Lab 12: [Classes](lab/12) (Due Thr Nov 21)        |
 | 13   | Nov 19: <br />Slides: [Classes & Objects Examples](lectures/Lecture20_CS105.pdf)  | Nov 21: <br />Module 15: [Matplotlib](module/15) (Due Tue Nov 26)     | Nov 22: <br />Lab 13: [Matplotlib](lab/13) (Due Thr Dec 5)         |
-| 14   | Nov 26:     | Nov 28: **Thanksgiving Break**      | Nov 29: **Thanksgiving Break**         |
+| 14   | Nov 26: <br />Module 16: [Pandas](module/16) (Due Tue Nov 26)    | Nov 28: **Thanksgiving Break**      | Nov 29: **Thanksgiving Break**         |
 | 15   | Dec  3:     | Dec  5: **Quiz 4**      | Dec  6:          |
 | 16   | Dec 16: (Monday <u>2pm</u>):<br /> **Hackathon**     |             |                        |
 

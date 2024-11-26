@@ -17,4 +17,5 @@ title: Guides
 * [Dictionary Methods Guide](/guides/dictionary)
 * [File Input/Output Guide](/guides/file)
 * [Matplotlib Guide](/guides/matplotlib)
+* [Pandas Guide](/guides/pandas)
 
