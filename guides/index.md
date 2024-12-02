@@ -16,6 +16,7 @@ title: Guides
 * [Debugger Guide](guides/debug)
 * [Dictionary Methods Guide](/guides/dictionary)
 * [File Input/Output Guide](/guides/file)
+* [Python Classes Guide](/guides/classes)
 * [Matplotlib Guide](/guides/matplotlib)
 * [Pandas Guide](/guides/pandas)
 

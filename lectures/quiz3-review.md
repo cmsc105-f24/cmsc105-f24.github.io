@@ -6,7 +6,7 @@ permalink: /lecture/q3
 # Quiz Review 
 
 ## Background 
-This quiz is based on the topics covered in weeks 8 through 10. There are 3 sections — short answer questions, Python statements, and a programming problem. Students are allowed to use the Thonny IDE for __Section III only__. Please see the grading rubric for the programming problem. Scratch paper and a simple calculator are allowed.
+The quiz will be based on the topics covered in weeks 8 through 10. There are 3 sections — short answer questions, Python statements, and a programming problem. Students are allowed to use the Thonny IDE for __Section III only__. Please see the grading rubric for the programming problem. Scratch paper and a simple calculator are allowed.
 
 
 ## Section I (20 points)
