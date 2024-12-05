@@ -3,11 +3,11 @@ layout: default
 permalink: lab/14  
 ---
 
-# Lab 14: Choose your own adventure
+# Lab 14: Coding Lab: Choose your own adventure
 
 __Points Possible:__ 100  
 
-__Due:__ Friday, December 6th  
+__Due:__ Thursday, December 12th  
 
 In this lab, you will use your knowledge of Python to solve programming challenges.
 
@@ -17,6 +17,7 @@ Submit a Python file for each of the programs, along with any output images save
 ---
 
 ## Instructions:
+
 Solve any **TWO** of the following problems.
 
 ---
@@ -48,6 +49,8 @@ Please enter the participation score: 100
 Final Grade: 89.5%
 ```
 
+Save the program as `grade_calc.py` and attach it to the Blackboard lab assignment.
+
 ---
 
 ### **2. Simple Banking System**
@@ -74,6 +77,8 @@ Account: Alice, Balance: $100
 Choose an option: 5
 ```
 
+Save the program as `simple_bank.py` and attach it to the Blackboard lab assignment.
+
 ---
 
 ### **3. Multiplication Table Generator**
@@ -96,6 +101,7 @@ End: 5
 5   5  10  15  20  25
 ```
 
+Save the program as `mult_table.py` and attach it to the Blackboard lab assignment.
 ---
 
 ### **4. Simple Class: Library Book Tracker**
@@ -125,6 +131,7 @@ No books available.
 Choose an option: 5
 ```
 
+Save the program as `book_track.py` and attach it to the Blackboard lab assignment.
 ---
 
 
