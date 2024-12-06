@@ -57,7 +57,7 @@ Please enter the participation score: 100
 
 **Example Output:**
 ```
-Final Grade: 89.5%
+Final Grade: 89.0%
 ```
 
 Save the program as `grade_calc.py` and attach it to the Blackboard lab assignment.
