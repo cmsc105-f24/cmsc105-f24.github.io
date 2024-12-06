@@ -16,6 +16,17 @@ Submit a Python file for each of the programs, along with any output images save
 
 ---
 
+### Pair programming
+
+Pair programming is a software development technique in which two programmers work together at one computer. One, the **driver**, writes code while the other, the **navigator**, reviews each line of code as it is typed in. **The two programmers switch roles frequently.**
+
+* This is a **group assignment**, but you should each **turn in your code individually**. 
+* Groups will be assigned at the beginning of lab.
+* **Rules for groups work:**
+    * Do not divide and conquer, i.e., do not assign each person an exercise to work on individually.
+    * **Work together** on **each** exercise and share responsibilities, each person should have a chance to write code.
+    
+
 ## Instructions:
 
 Solve any **TWO** of the following problems.
