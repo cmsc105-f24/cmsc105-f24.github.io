@@ -1,3 +1,7 @@
+---
+layout: default
+title: Elementary Programming Hackathon
+---
 
 # Elementary Programming Hackathon
 
