@@ -113,6 +113,7 @@ End: 5
 ```
 
 Save the program as `mult_table.py` and attach it to the Blackboard lab assignment.
+
 ---
 
 ### **4. Simple Class: Library Book Tracker**
