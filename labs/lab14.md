@@ -25,7 +25,7 @@ Pair programming is a software development technique in which two programmers wo
 * **Rules for groups work:**
     * Do not divide and conquer, i.e., do not assign each person an exercise to work on individually.
     * **Work together** on **each** exercise and share responsibilities, each person should have a chance to write code.
-    
+
 
 ## Instructions:
 
@@ -143,6 +143,7 @@ Choose an option: 5
 ```
 
 Save the program as `book_track.py` and attach it to the Blackboard lab assignment.
+
 ---
 
 
