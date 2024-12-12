@@ -55,8 +55,8 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 #### Allowed
 * The course web page
     * [Guides](/guides/index.md)
-    * [Slides](schedule)
-    * [Answers to labs](schedule)
+    * [Lecture Slides](/lectures/index.md)
+    * [Answers to Labs](/labs/answers)
 * Your own code from this semester
 * Web search for datasets
 * Web search for Python reference information
@@ -64,6 +64,7 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 #### Not allowed
 * Absolutely **no AI or GPT** tools
 * Web search for existing code
+* Divide and conquer of the work. Teams must work together to solve each program. 
 
 
 ### **THEME 1:** Automate Your World and Everyday Tools <a class="anchor" id="theme1"></a>
