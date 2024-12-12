@@ -19,4 +19,6 @@ title: Guides
 * [Python Classes Guide](/guides/classes)
 * [Matplotlib Guide](/guides/matplotlib)
 * [Pandas Guide](/guides/pandas)
+* [Random Library Guide](/guides/random)
+* [Format Strings Guide "f-strings"](guides/f-string)
 
