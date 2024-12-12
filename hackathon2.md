@@ -256,6 +256,10 @@ This dataset contains information about a collection of popular movies, includin
 3. **Visualization**: Create bar charts or pie charts to show the number of movies per genre or average rating by genre.
 4. **Recommendations**: Identify top-rated movies within a specific genre.
 
+**Data:**
+[movie_ratings.csv](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/movie_ratings.csv)
+
+
 
 #### Groundhog Day Forecasts and Temperatures
 
