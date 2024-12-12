@@ -11,11 +11,33 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 * [Event Details](#details)
 * [Resources](#resources)
 * [Theme 1: Automate Your World](#theme1)
+    * [Password Generator](password)
+    * [Expense Tracker](expense)
+    * [To-Do List Manager](todo)
+    * [Grocery List Manager](grocery)
 * [Theme 2: Game On](#theme2)
+    * [Hangman Game](#hangman)
+    * [Math Practice Game](#mathgame)
+    * [Text-Based Adventure](#textadventure)
+    * [Simple Trivia Game](#trivia)
+    * [Rock, Paper, Scissors](#rockpaperscissors)
+    * [Word Scramble](#wordscramble)
+    * [Blackjack](#blackjack)
+    * [Battleship](#battleship)
+    * [Tic-Tac-Toe](#tictactoe)
+    * [Text-Based Slot Machine](#slotmachine)
 * [Theme 3: Data Exploration](#theme3)
+    * [Movie Ratings](#movieratings)
+    * [Groundhog Day Forecasts and Temperatures](#groundhog)
+    * [80 Cereals](#cereals)
+    * [UFO Sightings](#ufo)
+    * [Starbucks Menu](#nutritionstarbucks)
 * [Theme 4: Everyday Tools](#theme4)
-
-
+    * [Mileage Tracker](#mileage)
+    * [Expense Splitter](#expense)
+    * [Birthday Reminder](#birthday)
+    * [Habit Tracker](#habit)
+    * [Calculator](#calculator)
 
 ### **Event Details** <a class="anchor" id="details"></a>
 - **Themes**: 
@@ -32,22 +54,24 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 
 ### Resources <a class="anchor" id="resources"></a>
 
+#### Allowed
 * The course web page
     * [Guides](/guides/index.md)
     * [Slides](schedule)
     * [Answers to labs](schedule)
 * Your own code from this semester
+* Web search for datasets
+* Web search for Python reference information
 
 #### Not allowed
-
-* No AI or GPT tools
+* Absolutely **no AI or GPT** tools
 * Web search for existing code
 
 
 ### **THEME 1:** Automate Your World: Build Python scripts to automate small tasks <a class="anchor" id="theme1"></a>
 
 
-#### Password Generator
+#### Password Generator <a class="anchor" id="password"></a>
 
 A tool to generate strong, random passwords based on user-defined criteria (e.g., length, inclusion of special characters).
 
@@ -57,7 +81,7 @@ Key Features:
 * Libraries: random, string
 
 
-#### Expense Tracker
+#### Expense Tracker <a class="anchor" id="expense"></a>
 
 A tool to log daily expenses and generate a summary report.
 
@@ -68,7 +92,7 @@ Key Features:
 * Libraries: Matplotlib
 
 
-#### To-Do List Manager
+#### To-Do List Manager <a class="anchor" id="todo"></a>
 
 A simple script to manage a to-do list, adding, removing, and marking tasks as completed.
 
@@ -79,7 +103,7 @@ Key Features:
 * Saves tasks to a file.
 
 
-#### Grocery List Manager
+#### Grocery List Manager <a class="anchor" id="grocery"></a>
 
 Students build a program to manage a grocery shopping list.
 
@@ -94,7 +118,7 @@ Key Features:
 ### **THEME 2:** Game On: Create simple text-based games <a class="anchor" id="theme2"></a>
 
 
-#### Hangman Game
+#### Hangman Game <a class="anchor" id="hangman"></a>
 
 Create a text-based Hangman game.
 
@@ -104,7 +128,7 @@ Key Features:
 * End with a win/lose message.
 
 
-#### Math Practice Game
+#### Math Practice Game <a class="anchor" id="mathgame"></a>
 
 A program to generate random arithmetic problems (addition, subtraction, multiplication) for practice.
 
@@ -114,7 +138,7 @@ Key Features:
 * Display results (e.g., correct answers, total score) at the end.
 
 
-#### Text-Based Adventure
+#### Text-Based Adventure <a class="anchor" id="textadventure"></a>
 
 An interactive story where players navigate a world by making choices (e.g., “Go north or south?”).
 
@@ -124,7 +148,7 @@ Key Features:
 * Add inventory management or simple combat mechanics.
 
 
-#### Simple Trivia Game
+#### Simple Trivia Game <a class="anchor" id="trivia"></a>
 
 A quiz game with multiple-choice questions.
 
@@ -135,7 +159,7 @@ Key Features:
 * Allow players to add their own questions for replay.
 
 
-#### Rock, Paper, Scissors with Score Tracking
+#### Rock, Paper, Scissors with Score Tracking <a class="anchor" id="rockpaperscissors"></a>
 
 A more involved version of the classic game where the program keeps track of the score over multiple rounds.
 
@@ -145,7 +169,7 @@ Key Features:
 * Display the final score at the end.
 
 
-#### Word Scramble
+#### Word Scramble <a class="anchor" id="wordscramble"></a>
 
 A game where the player unscrambles a jumbled word.
 
@@ -156,7 +180,7 @@ Key Features:
 * Libraries: random
 
 
-#### Blackjack
+#### Blackjack <a class="anchor" id="blackjack"></a>
 
 A simplified version of the card game Blackjack.
 
@@ -168,7 +192,7 @@ Key Features:
 * Libraries: random
 
 
-#### Battleship 
+#### Battleship <a class="anchor" id="battleship"></a>
 
 A grid-based guessing game where the player tries to “hit” a hidden ship.
 
@@ -178,7 +202,7 @@ Key Features:
 * Add multiple ships and print the grid.
 
 
-#### Tic-Tac-Toe
+#### Tic-Tac-Toe <a class="anchor" id="tictactoe"></a>
 
 A two-player game where users take turns marking spaces on a 3x3 grid.
 
@@ -188,7 +212,7 @@ Key Features:
 * Add a single-player mode with basic AI.
 
 
-#### Text-Based Slot Machine
+#### Text-Based Slot Machine <a class="anchor" id="slotmachine"></a>
 
 A game where players pull a lever to spin a slot machine and win based on matching symbols.
 
@@ -199,12 +223,9 @@ Key Features:
 * Libraries: random
 
 
-
-
 ### **THEME 3:** Data Exploration: Use Python to analyze and visualize a dataset <a class="anchor" id="theme3"></a>
 
-
-#### Movie Ratings
+#### Movie Ratings <a class="anchor" id="movieratings"></a>
 
 **Overview:**
 This dataset contains information about a collection of popular movies, including their titles, genres, and IMDb-style ratings. It can be used for data analysis, visualization, or building simple movie recommendation tools.
@@ -245,8 +266,7 @@ This dataset contains information about a collection of popular movies, includin
 [movie_ratings.csv](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/movie_ratings.csv)
 
 
-
-#### Groundhog Day Forecasts and Temperatures
+#### Groundhog Day Forecasts and Temperatures <a class="anchor" id="groundhog"></a>
 
 **Context:**
 Thousands gather at Gobbler’s Knob in Punxsutawney, Pennsylvania, on the second day of February to await the spring forecast from a groundhog known as *Punxsutawney Phil*. According to legend, if Phil sees his shadow the United States is in store for six more weeks of winter weather. But, if Phil doesn’t see his shadow, the country should expect warmer temperatures and the arrival of an early spring.
@@ -256,7 +276,7 @@ Thousands gather at Gobbler’s Knob in Punxsutawney, Pennsylvania, on the secon
 
 
 
-#### 80 Cereals
+#### 80 Cereals <a class="anchor" id="cereals"></a>
 
 Nutrition data on 80 cereal products
 
@@ -298,7 +318,7 @@ Fields in the dataset:
 
 
 
-#### UFO Sightings
+#### UFO Sightings <a class="anchor" id="ufo"></a>
 
 **Context:**
 This dataset contains over 80,000 reports of UFO sightings over the last century.
@@ -310,7 +330,7 @@ There are two versions of this dataset: scrubbed and complete. The complete data
 [ufo_sightings.csv](https://raw.githubusercontent.com/cmsc105-f24/code/refs/heads/main/ufo_sightings.csv)
 
 
-#### Nutrition facts for Starbucks Menu
+#### Nutrition facts for Starbucks Menu <a class="anchor" id="nutritionstarbucks"></a>
 
 **Context:**
 Starbucks is an American coffee chain founded in Seattle. 
@@ -326,8 +346,7 @@ This dataset includes the nutritional information for Starbucks’ food menu ite
 
 ### **THEME 4:** Everyday Tools: Build small utilities <a class="anchor" id="theme4"></a>
 
-
-#### Mileage Tracker
+#### Mileage Tracker <a class="anchor" id="mileage"></a>
 
 Calculate fuel efficiency based on miles driven and fuel used.
 
@@ -337,7 +356,7 @@ Key Features:
 * Save data for multiple trips.
 
 
-#### Expense Splitter
+#### Expense Splitter <a class="anchor" id="expense"></a>
 
 A program to split bills among friends.
 
@@ -347,7 +366,7 @@ Key Features:
 * Allow tracking of who has paid.
 
 
-#### Birthday Reminder
+#### Birthday Reminder <a class="anchor" id="birthday"></a>
 
 A program to store and remind users of upcoming birthdays.
 
@@ -356,7 +375,8 @@ Key Features:
 * Notify the user when a birthday is approaching.
 * Sort birthdays by date.
 
-#### Habit Tracker
+
+#### Habit Tracker <a class="anchor" id="habit"></a>
 
 Track daily habits and mark them as completed.
 
@@ -366,27 +386,7 @@ Key Features:
 * Save data to a file for persistence.
 
 
-#### Loan Payment Calculator
-
-Calculate monthly loan payments based on the loan amount, interest rate, and term.
-
-Key Features:
-* Input: Principal amount, annual interest rate, and loan term (in years).
-* Output: Monthly payment amount.
-* Include total interest paid over the term.
-
-
-#### Unit Converter
-
-Convert units such as distance (miles to kilometers), weight (pounds to kilograms), and temperature (Celsius to Fahrenheit).
-
-Key Features:
-* Allow users to select the type of conversion.
-* Input the value and display the converted result.
-* Include additional units (e.g., time, volume).
-
-
-#### Calculator
+#### Calculator <a class="anchor" id="calculator"></a>
 
 A utility that performs arithmetic operations.
 
