@@ -43,17 +43,6 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 * No AI or GPT tools
 * Web search for existing code
 
-<div class="eyes">
-  <div class="eye">
-    <div class="pupil"></div>
-  </div>
-  <div class="eye">
-    <div class="pupil"></div>
-  </div>
-</div>
-
-
-
 
 ### **THEME 1:** Automate Your World: Build Python scripts to automate small tasks <a class="anchor" id="theme1"></a>
 
