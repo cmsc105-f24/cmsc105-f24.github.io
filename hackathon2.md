@@ -10,11 +10,16 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 #### Outline:
 * [Event Details](#details)
 * [Resources](#resources)
-* [Theme 1: Automate Your World](#theme1)
+* [Theme 1: Automate Your World and Everyday Tools](#theme1)
     * [Password Generator](password)
     * [Expense Tracker](expense)
     * [To-Do List Manager](todo)
     * [Grocery List Manager](grocery)
+    * [Mileage Tracker](#mileage)
+    * [Expense Splitter](#expense)
+    * [Birthday Reminder](#birthday)
+    * [Habit Tracker](#habit)
+    * [Calculator](#calculator)
 * [Theme 2: Game On](#theme2)
     * [Hangman Game](#hangman)
     * [Math Practice Game](#mathgame)
@@ -32,22 +37,15 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
     * [80 Cereals](#cereals)
     * [UFO Sightings](#ufo)
     * [Starbucks Menu](#nutritionstarbucks)
-* [Theme 4: Everyday Tools](#theme4)
-    * [Mileage Tracker](#mileage)
-    * [Expense Splitter](#expense)
-    * [Birthday Reminder](#birthday)
-    * [Habit Tracker](#habit)
-    * [Calculator](#calculator)
+
 
 ### **Event Details** <a class="anchor" id="details"></a>
-- **Themes**: 
-    - Automate Your World: Build Python scripts to automate small tasks 
+- **Three Themes**: 
+    - Automate Your World and Everyday Tools: Build Python scripts to automate small tasks 
     - Game On: Create simple text-based games 
     - Data Exploration: Use Python to analyze and visualize a dataset
-    - Everyday Tools: Build small utilities like to-do lists, or calculators
-
-- **Tasks**:
-    - Write one program for **each** theme.
+- **Student Tasks**:
+    - Write one program for **each** of the three themes (3 total programs).
     - Provide code comments that document what the code does and how to run your program. 
     - Submit your code files on blackboard.
 
@@ -68,8 +66,9 @@ Welcome to the **Elementary Programming Hackathon**! This is your chance to appl
 * Web search for existing code
 
 
-### **THEME 1:** Automate Your World: Build Python scripts to automate small tasks <a class="anchor" id="theme1"></a>
+### **THEME 1:** Automate Your World and Everyday Tools <a class="anchor" id="theme1"></a>
 
+Automate Your World and Everyday Tools theme combines the practicality of automation with the creativity of building everyday tools. It empowers students to develop Python programs that enhance productivity, streamline workflows, and tackle common challenges in daily life. From automating tedious tasks like reminders to creating functional utilities like budget trackers, to-do lists, and calculators, this theme encourages innovation with a focus on real-world applications. By blending automation and utility, students can explore how coding can transform repetitive or mundane tasks into efficient, enjoyable experiences, making technology an integral part of simplifying and improving their routines.
 
 #### Password Generator <a class="anchor" id="password"></a>
 
@@ -113,10 +112,59 @@ Key Features:
 * Allow users to mark items as purchased.
 * Include quantities for each item.
 
+#### Mileage Tracker <a class="anchor" id="mileage"></a>
+
+Calculate fuel efficiency based on miles driven and fuel used.
+
+Key Features:
+* Input: Distance driven and fuel consumed.
+* Output: Miles per gallon (MPG).
+* Save data for multiple trips.
 
 
-### **THEME 2:** Game On: Create simple text-based games <a class="anchor" id="theme2"></a>
+#### Expense Splitter <a class="anchor" id="expense"></a>
 
+A program to split bills among friends.
+
+Key Features:
+* Input: Total bill amount and list of friends.
+* Output: Amount each person owes.
+* Allow tracking of who has paid.
+
+
+#### Birthday Reminder <a class="anchor" id="birthday"></a>
+
+A program to store and remind users of upcoming birthdays.
+
+Key Features:
+* Add, view, and delete birthdays.
+* Notify the user when a birthday is approaching.
+* Sort birthdays by date.
+
+
+#### Habit Tracker <a class="anchor" id="habit"></a>
+
+Track daily habits and mark them as completed.
+
+Key Features:
+* Allow users to add, view, and mark habits.
+* Display progress (e.g., percentage of completion for each habit).
+* Save data to a file for persistence.
+
+
+#### Calculator <a class="anchor" id="calculator"></a>
+
+A utility that performs arithmetic operations.
+
+Key Features:
+* Allow users to input numbers and an operator.
+* Display the result.
+* Include advanced operations (e.g., square root, power).
+* Libraries: math
+
+### **THEME 2:** Game On <a class="anchor" id="theme2"></a>
+
+The Game On theme invites students to unleash their creativity by designing and building text-based games that entertain, challenge, and engage. Whether crafting a thrilling adventure story, coding a classic guessing game, or simulating a competitive game like Rock, Paper, Scissors, this theme encourages problem-solving and interactive storytelling. By combining logic, user input, and Python programming fundamentals, students can create games that test skills, deliver fun experiences, and bring their unique ideas to life. “Game On” is all about making learning enjoyable while demonstrating the versatility and power of programming in an imaginative and playful way.
 
 #### Hangman Game <a class="anchor" id="hangman"></a>
 
@@ -223,7 +271,9 @@ Key Features:
 * Libraries: random
 
 
-### **THEME 3:** Data Exploration: Use Python to analyze and visualize a dataset <a class="anchor" id="theme3"></a>
+### **THEME 3:** Data Exploration <a class="anchor" id="theme3"></a>
+
+The Data Exploration theme empowers students to uncover insights and tell stories through data. By analyzing and visualizing datasets, students learn to transform raw information into meaningful patterns and trends. This theme combines programming fundamentals with critical thinking, as students explore topics ranging from movie ratings to weather patterns or sales data. Whether calculating statistics, identifying correlations, or creating visual representations like bar charts and line graphs, *Data Exploration* demonstrates the power of Python as a tool for understanding the world. It's an opportunity to blend creativity, curiosity, and technical skills to make data come alive.
 
 #### Movie Ratings <a class="anchor" id="movieratings"></a>
 
@@ -344,54 +394,3 @@ This dataset includes the nutritional information for Starbucks’ food menu ite
 
 
 
-### **THEME 4:** Everyday Tools: Build small utilities <a class="anchor" id="theme4"></a>
-
-#### Mileage Tracker <a class="anchor" id="mileage"></a>
-
-Calculate fuel efficiency based on miles driven and fuel used.
-
-Key Features:
-* Input: Distance driven and fuel consumed.
-* Output: Miles per gallon (MPG).
-* Save data for multiple trips.
-
-
-#### Expense Splitter <a class="anchor" id="expense"></a>
-
-A program to split bills among friends.
-
-Key Features:
-* Input: Total bill amount and list of friends.
-* Output: Amount each person owes.
-* Allow tracking of who has paid.
-
-
-#### Birthday Reminder <a class="anchor" id="birthday"></a>
-
-A program to store and remind users of upcoming birthdays.
-
-Key Features:
-* Add, view, and delete birthdays.
-* Notify the user when a birthday is approaching.
-* Sort birthdays by date.
-
-
-#### Habit Tracker <a class="anchor" id="habit"></a>
-
-Track daily habits and mark them as completed.
-
-Key Features:
-* Allow users to add, view, and mark habits.
-* Display progress (e.g., percentage of completion for each habit).
-* Save data to a file for persistence.
-
-
-#### Calculator <a class="anchor" id="calculator"></a>
-
-A utility that performs arithmetic operations.
-
-Key Features:
-* Allow users to input numbers and an operator.
-* Display the result.
-* Include advanced operations (e.g., square root, power).
-* Libraries: math
