@@ -3,48 +3,60 @@ layout: default
 title: Elementary Programming Hackathon
 ---
 
-# Elementary Programming Hackathon
+## Elementary Programming Hackathon
 
 Welcome to the **Elementary Programming Hackathon**! This is your chance to apply what you’ve learned, collaborate with classmates, and create something fun and meaningful. Let’s see how creative you can get with Python!
 
----
+#### Outline:
+* [Event Details](#details)
+* [Resources](#resources)
+* [Theme 1: Automate Your World](#theme1)
+* [Theme 2: Game On](#theme2)
+* [Theme 3: Data Exploration](#theme3)
+* [Theme 4: Everyday Tools](#theme4)
 
-## **Event Details**
+
+
+### **Event Details** <a class="anchor" id="details"></a>
 - **Themes**: 
-    - Automate Your World: Build Python scripts to automate small tasks (e.g., file organization, data cleaning, or reminders).
-    - Game On: Create simple text-based games (e.g., trivia, number guessing, or basic RPGs).
-    - Data Exploration: Use Python to analyze and visualize a dataset.
-    - Everyday Tools: Build small utilities like to-do lists, or calculators.
+    - Automate Your World: Build Python scripts to automate small tasks 
+    - Game On: Create simple text-based games 
+    - Data Exploration: Use Python to analyze and visualize a dataset
+    - Everyday Tools: Build small utilities like to-do lists, or calculators
 
 - **Tasks**:
-    - Write one program for each theme.
-    - Make sure that you provide test code for the program.
-    - Make sure that your code is well documented.
+    - Write one program for **each** theme.
+    - Provide code comments that document what the code does and how to run your program. 
     - Submit your code files on blackboard.
 
 
-## Resources
+### Resources <a class="anchor" id="resources"></a>
 
 * The course web page
-    * Guides
-    * Slides
-    * Answers to labs
-
+    * [Guides](/guides/index.md)
+    * [Slides](schedule)
+    * [Answers to labs](schedule)
 * Your own code from this semester
 
-## Not allowed
+#### Not allowed
 
-* **No AI or GPT tools**
-* **Web search for existing code**
+* No AI or GPT tools
+* Web search for existing code
+
+<div class="eyes">
+  <div class="eye">
+    <div class="pupil"></div>
+  </div>
+  <div class="eye">
+    <div class="pupil"></div>
+  </div>
+</div>
 
 
 
 
+### **THEME 1:** Automate Your World: Build Python scripts to automate small tasks <a class="anchor" id="theme1"></a>
 
-
-### Automate Your World: Build Python scripts to automate small tasks
-
----
 
 #### Password Generator
 
@@ -90,9 +102,8 @@ Key Features:
 
 
 
-### Game On: Create simple text-based games (e.g., trivia, number guessing, or basic RPGs)
+### **THEME 2:** Game On: Create simple text-based games <a class="anchor" id="theme2"></a>
 
----
 
 #### Hangman Game
 
@@ -143,7 +154,6 @@ Key Features:
 * Use a loop to play multiple rounds.
 * Add scoring logic: +1 for a win, 0 for a tie.
 * Display the final score at the end.
-
 
 
 #### Word Scramble
@@ -202,11 +212,10 @@ Key Features:
 
 
 
-### Data Exploration: Use Python to analyze and visualize a dataset.
+### **THEME 3:** Data Exploration: Use Python to analyze and visualize a dataset <a class="anchor" id="theme3"></a>
 
----
 
-#### Movie 
+#### Movie Ratings
 
 **Overview:**
 This dataset contains information about a collection of popular movies, including their titles, genres, and IMDb-style ratings. It can be used for data analysis, visualization, or building simple movie recommendation tools.
@@ -237,20 +246,7 @@ This dataset contains information about a collection of popular movies, includin
   - 7.9
   - 9.2
 
----
-
-**Example Rows**
-| Movie                              | Genre       | Rating |
-|------------------------------------|-------------|--------|
-| Inception                          | Sci-Fi      | 8.8    |
-| The Godfather                      | Crime       | 9.2    |
-| Frozen                             | Animation   | 7.5    |
-| The Shawshank Redemption           | Drama       | 9.3    |
-| Spider-Man: Into the Spider-Verse  | Animation   | 8.4    |
-
----
-
-**Potential Use Cases**
+**Potential Analysis**
 1. **Genre Analysis**: Analyze the distribution of movies across genres.
 2. **Rating Insights**: Explore high-rated movies and their genres.
 3. **Visualization**: Create bar charts or pie charts to show the number of movies per genre or average rating by genre.
@@ -339,9 +335,7 @@ This dataset includes the nutritional information for Starbucks’ food menu ite
 
 
 
-### Everyday Tools: Build small utilities like to-do lists, or calculators.
-
----
+### **THEME 4:** Everyday Tools: Build small utilities <a class="anchor" id="theme4"></a>
 
 
 #### Mileage Tracker
@@ -372,8 +366,6 @@ Key Features:
 * Add, view, and delete birthdays.
 * Notify the user when a birthday is approaching.
 * Sort birthdays by date.
-
-
 
 #### Habit Tracker
 
